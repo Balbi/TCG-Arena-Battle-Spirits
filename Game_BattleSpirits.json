@@ -90,12 +90,10 @@
               "direction": "column",
               "style": false,
               "content": [
-                
                     {
                       "section": "Cores",
                       "style": {
-                        "width": "100px",
-                        "opacity": "50%"
+                        "width": "100px"
                       }
                     },
                 {
@@ -126,7 +124,7 @@
         "sectionsDict": {
           "Cores": {
             "title": "Cores",
-            "isHidden": "no",
+            "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
             "drawPerTurn": 1,
@@ -134,10 +132,10 @@
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
             "displayedTitle": "Void",
-            "noQuickActions": true,
+            "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": true,
+            "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "cardBackColor": "#e0e0e0"
@@ -177,7 +175,7 @@
               "action": "MOVE",
               "actionData": {
                 "destination": "Cores",
-                "position": "TOP"
+                "position": "BOTTOM"
               },
               "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/icons/trash.png"
             }
