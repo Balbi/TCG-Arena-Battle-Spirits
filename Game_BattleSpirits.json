@@ -8,7 +8,7 @@
   "customHelp": "This project is not officially supported by the game publisher. It is a fan project created to help players build their decks and playtest them online. If you enjoy it, consider supporting the official game and its community.",
   "cardRotation": "90",
   "cards": {
-    "dataUrl": "https://balbi.github.io/TCG-Arena-Battle-Spirits/BattleSpiritCards.json",
+    "dataUrl": "https://balbi.github.io/TCG-Arena-Battle-Spirits/BattleSpiritsCards.json",
     "cardBack": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/card-back.png",
     "cardBackColor": "#000000",
     "extraCardBacks": {}
