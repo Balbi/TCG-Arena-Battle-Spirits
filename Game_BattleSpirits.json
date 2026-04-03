@@ -89,6 +89,9 @@
           "isSymetricalForOpponents": false,
           "content": [
             {
+              "section": "Battlefield"
+            },
+            {
               "direction": "row",
               "style": false,
               "content": [
@@ -100,9 +103,6 @@
                 }
               ],
               "isSymetricalForOpponents": false
-            },
-            {
-              "section": "Battlefield"
             }
           ]
         },
@@ -142,7 +142,7 @@
           "Battlefield": {
             "title": "Battlefield",
             "isHidden": "no",
-            "height": "LARGE",
+            "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
