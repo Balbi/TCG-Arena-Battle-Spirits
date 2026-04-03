@@ -49,12 +49,12 @@
             {
               "createCardId": "42a40c74-9a93-4b83-be25-977bdf315cf1",
               "count": 200,
-              "destination": "CoreVoid"
+              "destination": "Cores"
             },
             {
               "createCardId": "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
               "count": 200,
-              "destination": "CoreVoid"
+              "destination": "Cores"
             }
           ]
         
@@ -83,7 +83,7 @@
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "CoreVoid",
+          "Cores",
           "Mana",
           "Battlefield"
         ],
@@ -96,7 +96,7 @@
               "style": false,
               "content": [
                 {
-                  "section": "CoreVoid"
+                  "section": "Cores"
                 },
                 {
                   "section": "Mana"
@@ -110,7 +110,7 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "CoreVoid",
+          "Cores",
           "Mana",
           "Battlefield"
         ],
@@ -124,7 +124,7 @@
           "Core": "Mana"
         },
         "sectionsDict": {
-          "CoreVoid": {
+          "Cores": {
             "title": "Void",
             "isHidden": "no",
             "height": "SMALL",
