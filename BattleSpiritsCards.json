@@ -1,0 +1,62 @@
+{
+  "f28bca8e-7bf6-4507-9d3d-f7ef60650278": {
+      "id": "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
+      "face": {
+        "front": {
+          "name": "Core",
+          "type": "Core",
+          "cost": 0,
+          "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/core.png",
+          "isHorizontal": false
+        }
+      },
+      "name": "Core",
+      "type": "Core",
+      "cost": 0,
+      "Color": [],
+      "Reudction": [],
+      "Family": [],
+      "Set": ["Base"],
+      "isToken": true
+  },
+  "42a40c74-9a93-4b83-be25-977bdf315cf1": {
+      "id": "42a40c74-9a93-4b83-be25-977bdf315cf1",
+      "face": {
+        "front": {
+          "name": "Soul Core",
+          "type": "Core",
+          "cost": 0,
+          "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/soul-core.png",
+          "isHorizontal": false
+        }
+      },
+      "name": "Soul Core",
+      "type": "Core",
+      "cost": 0,
+      "Color": [],
+      "Reudction": [],
+      "Family": [],
+      "Set": ["Base"],
+      "isToken": true
+  },
+  "88486a22-d503-4511-900e-91ad008b6c43": {
+    "id": "26RBS01-055",
+    "face": {
+      "front": {
+        "name": "The LiquidSilver Fransil",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RBS01-055.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "The LiquidSilver Fransil",
+    "type": "Spirit",
+    "cost": 5,
+    "Color": ["White"],
+    "Reudction": ["Green","Green"],
+    "Family": ["Leucomyst", "Mercury"],
+    "Set": ["26RBS01"],
+    "isToken": false
+  }
+}
