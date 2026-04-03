@@ -4,40 +4,40 @@
       "face": {
         "front": {
           "name": "Core",
-          "type": "Core",
+          "type": "Cores",
           "cost": 0,
           "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/core.png",
           "isHorizontal": false
         }
       },
       "name": "Core",
-      "type": "Core",
+      "type": "Cores",
       "cost": 0,
       "Color": [],
       "Reudction": [],
       "Family": [],
       "Set": ["Base"],
-      "isToken": false
+      "isToken": true
   },
   "42a40c74-9a93-4b83-be25-977bdf315cf1": {
       "id": "42a40c74-9a93-4b83-be25-977bdf315cf1",
       "face": {
         "front": {
           "name": "Soul Core",
-          "type": "Core",
+          "type": "Cores",
           "cost": 0,
           "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/soul-core.png",
           "isHorizontal": false
         }
       },
       "name": "Soul Core",
-      "type": "Core",
+      "type": "Cores",
       "cost": 0,
       "Color": [],
       "Reudction": [],
       "Family": [],
       "Set": ["Base"],
-      "isToken": false
+      "isToken": true
   },
   "26RBS01-055": {
     "id": "26RBS01-055",

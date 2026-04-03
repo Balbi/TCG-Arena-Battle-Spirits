@@ -132,6 +132,7 @@
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
+            "drawPerTurn": 1,
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
