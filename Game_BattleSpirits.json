@@ -124,14 +124,14 @@
         },
         "autoPlayFromStack": {
           "Magic": "Discard",
-          "Core": "Mana"
+          "Cores": "Mana"
         },
         "sectionsDict": {
           "Cores": {
             "title": "Void",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER",
+            "alignment": "DECK",
             "drawPerTurn": 1,
             "opponentAlignment": false,
             "noAutoPayTo": true,
