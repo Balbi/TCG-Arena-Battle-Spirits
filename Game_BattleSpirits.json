@@ -19,6 +19,7 @@
       "cost",
       "name",
       "Color",
+      "Family",
       "Set"
     ],
     "formats": [
@@ -42,6 +43,22 @@
   },
   "gameplay": {
     "Standard": {
+      "beforeGameStart": {
+        "initialBoardSetup": 
+          [
+            {
+              "createCardId": "42a40c74-9a93-4b83-be25-977bdf315cf1",
+              "count": 200,
+              "destination": "CoreVoid"
+            },
+            {
+              "createCardId": "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
+              "count": 200,
+              "destination": "CoreVoid"
+            }
+          ]
+        
+      },
       "mulligan": {
         "info": "",
         "startingHandSize": "4",
@@ -101,7 +118,8 @@
           "Magic": "Stack"
         },
         "autoPlayFromStack": {
-          "Magic": "Discard"
+          "Magic": "Discard",
+          "Core": "Mana"
         },
         "sectionsDict": {
           "CoreVoid": {

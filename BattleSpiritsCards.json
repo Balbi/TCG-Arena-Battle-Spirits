@@ -17,7 +17,7 @@
       "Reudction": [],
       "Family": [],
       "Set": ["Base"],
-      "isToken": true
+      "isToken": false
   },
   "42a40c74-9a93-4b83-be25-977bdf315cf1": {
       "id": "42a40c74-9a93-4b83-be25-977bdf315cf1",
@@ -37,7 +37,7 @@
       "Reudction": [],
       "Family": [],
       "Set": ["Base"],
-      "isToken": true
+      "isToken": false
   },
   "26RBS01-055": {
     "id": "26RBS01-055",
