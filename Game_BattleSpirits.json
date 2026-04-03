@@ -92,7 +92,7 @@
               "section": "Battlefield"
             },
             {
-              "direction": "column",
+              "direction": "row",
               "style": false,
               "content": [
                 {
