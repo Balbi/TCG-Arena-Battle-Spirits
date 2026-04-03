@@ -46,14 +46,9 @@
       "beforeGameStart": {
         "initialBoardSetup": [
           {
-            "createCardId": "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
-            "count": 50,
-            "destination": "Cores"
-          },
-          {
             "createCardId": "42a40c74-9a93-4b83-be25-977bdf315cf1",
-            "count": 50,
-            "destination": "SoulCores"
+            "count": 1,
+            "destination": "Mana"
           }
         ]
       },
@@ -135,20 +130,19 @@
           "Magic": "Stack"
         },
         "autoPlayFromStack": {
-          "Magic": "Discard",
-          "Cores": "Mana"
+          "Magic": "Discard"
         },
         "sectionsDict": {
           "Cores": {
-            "title": "Void",
+            "title": "Cores",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER",
+            "alignment": "DECK",
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
             "displayedTitle": "Void",
-            "noQuickActions": false,
+            "noQuickActions": true,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": true,
@@ -157,15 +151,15 @@
             "cardBackColor": "#e0e0e0"
           },
           "SoulCores": {
-            "title": "Void",
+            "title": "SoulCores",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
-            "displayedTitle": "Void",
-            "noQuickActions": false,
+            "displayedTitle": "Soul Cores",
+            "noQuickActions": true,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": true,
@@ -203,7 +197,15 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "cardActionShortcut": {
+              "action": "MOVE",
+              "actionData": {
+                "destination": "Cores",
+                "position": "TOP"
+              },
+              "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/icons/trash.png"
+            }
           },
           "Stack": {
             "isDefaultSection": true,
