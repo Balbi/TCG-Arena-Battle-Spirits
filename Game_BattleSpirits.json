@@ -52,7 +52,7 @@
           },
           {
             "createCardId": "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
-            "count": 100,
+            "count": 200,
             "destination": "Cores"
           }
         ]
@@ -117,7 +117,8 @@
         "autoPlayFromHand": {
           "Spirit": "Battlefield",
           "Nexus": "Battlefield",
-          "Magic": "Stack"
+          "Magic": "Stack",
+          "Cores": "Mana"
         },
         "autoPlayFromStack": {
           "Magic": "Discard"
@@ -128,6 +129,7 @@
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "DECK",
+            "drawPerTurn": 1,
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
