@@ -49,6 +49,11 @@
             "createCardId": "42a40c74-9a93-4b83-be25-977bdf315cf1",
             "count": 1,
             "destination": "Mana"
+          },
+          {
+            "createCardId": "42a40c74-9a93-4b83-be25-977bdf315cf1",
+            "count": 1,
+            "destination": "Mana"
           }
         ]
       },
@@ -204,7 +209,7 @@
                 "destination": "Cores",
                 "position": "TOP"
               },
-              "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/icons/trash.png"
+              "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/icons/trash.png"
             }
           },
           "Stack": {
