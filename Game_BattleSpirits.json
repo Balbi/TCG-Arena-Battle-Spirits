@@ -56,7 +56,10 @@
         "drawPerTurn": 1
       },
       "defaultNotes": "",
-      "tokens": [],
+      "tokens": [
+        "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
+        "42a40c74-9a93-4b83-be25-977bdf315cf1"
+      ],
       "countersStartingValues": [
         "5"
       ],
@@ -64,7 +67,6 @@
       "sections": {
         "customSections": [
           "CoreVoid",
-          "Cores",
           "Battlefield"
         ],
         "layout": {
@@ -79,7 +81,7 @@
                   "section": "CoreVoid"
                 },
                 {
-                  "section": "Cores"
+                  "section": "Mana"
                 }
               ],
               "isSymetricalForOpponents": false
@@ -91,8 +93,7 @@
         },
         "categoriesAlreadyOnBoard": [
           "CoreVoid",
-          "Battlefield",
-          "Cores"
+          "Battlefield"
         ],
         "autoPlayFromHand": {
           "Spirit": "Battlefield",
