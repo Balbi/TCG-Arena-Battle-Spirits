@@ -84,6 +84,7 @@
       "sections": {
         "customSections": [
           "CoreVoid",
+          "Mana",
           "Battlefield"
         ],
         "layout": {
@@ -110,6 +111,7 @@
         },
         "categoriesAlreadyOnBoard": [
           "CoreVoid",
+          "Mana",
           "Battlefield"
         ],
         "autoPlayFromHand": {
