@@ -96,7 +96,10 @@
               "style": false,
               "content": [
                 {
-                  "section": "Cores"
+                  "section": "Cores",
+                  "style": {
+                    "width": "100px"
+                  }
                 },
                 {
                   "section": "Mana"
@@ -128,8 +131,7 @@
             "title": "Void",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "DECK",
-            "drawPerTurn": 1,
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
