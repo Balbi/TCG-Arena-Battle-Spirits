@@ -85,27 +85,24 @@
           "Battlefield"
         ],
         "layout": {
-          "direction": "row",
+          "direction": "column",
           "isSymetricalForOpponents": false,
           "content": [
+            {
+              "section": "Battlefield"
+            },
             {
               "direction": "column",
               "style": false,
               "content": [
-                    {
-                      "section": "Cores",
-                      "style": {
-                        "width": "100px"
-                      }
-                    },
+                {
+                  "section": "Cores"
+                },
                 {
                   "section": "Mana"
                 }
               ],
               "isSymetricalForOpponents": false
-            },
-            {
-              "section": "Battlefield"
             }
           ]
         },
@@ -145,7 +142,7 @@
           "Battlefield": {
             "title": "Battlefield",
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "LARGE",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
