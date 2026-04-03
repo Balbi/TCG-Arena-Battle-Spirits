@@ -44,20 +44,18 @@
   "gameplay": {
     "Standard": {
       "beforeGameStart": {
-        "initialBoardSetup": 
-          [
-            {
-              "createCardId": "42a40c74-9a93-4b83-be25-977bdf315cf1",
-              "count": 200,
-              "destination": "Cores"
-            },
-            {
-              "createCardId": "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
-              "count": 200,
-              "destination": "Cores"
-            }
-          ]
-        
+        "initialBoardSetup": [
+          {
+            "createCardId": "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
+            "count": 50,
+            "destination": "Cores"
+          },
+          {
+            "createCardId": "42a40c74-9a93-4b83-be25-977bdf315cf1",
+            "count": 50,
+            "destination": "SoulCores"
+          }
+        ]
       },
       "mulligan": {
         "info": "",
@@ -73,10 +71,7 @@
         "drawPerTurn": 1
       },
       "defaultNotes": "",
-      "tokens": [
-        "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
-        "42a40c74-9a93-4b83-be25-977bdf315cf1"
-      ],
+      "tokens": [],
       "countersStartingValues": [
         "5"
       ],
@@ -84,6 +79,7 @@
       "sections": {
         "customSections": [
           "Cores",
+          "SoulCores",
           "Mana",
           "Battlefield"
         ],
@@ -96,10 +92,25 @@
               "style": false,
               "content": [
                 {
-                  "section": "Cores",
-                  "style": {
-                    "width": "100px"
-                  }
+                  "direction": "column",
+                  "style": false,
+                  "content": [
+                    {
+                      "section": "Cores",
+                      "style": {
+                        "width": "100px",
+                        "opacity": "50%"
+                      }
+                    },
+                    {
+                      "section": "SoulCores",
+                      "style": {
+                        "width": "100px",
+                        "opacity": "50%"
+                      }
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
                 },
                 {
                   "section": "Mana"
@@ -114,6 +125,7 @@
         },
         "categoriesAlreadyOnBoard": [
           "Cores",
+          "SoulCores",
           "Mana",
           "Battlefield"
         ],
@@ -131,8 +143,24 @@
             "title": "Void",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "DECK",
-            "drawPerTurn": 1,
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Void",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "cardBackColor": "#e0e0e0"
+          },
+          "SoulCores": {
+            "title": "Void",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
