@@ -122,15 +122,15 @@
             "showHiddenCardInHistory": false,
             "cardBackColor": "#e0e0e0"
           },
-          "Base": {
-            "title": "Base",
+          "Battlefield": {
+            "title": "Battlefield",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Base",
+            "displayedTitle": "Battlefield",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
