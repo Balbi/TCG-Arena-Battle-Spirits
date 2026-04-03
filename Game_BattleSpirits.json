@@ -89,9 +89,6 @@
           "isSymetricalForOpponents": false,
           "content": [
             {
-              "section": "Battlefield"
-            },
-            {
               "direction": "row",
               "style": false,
               "content": [
@@ -103,6 +100,9 @@
                 }
               ],
               "isSymetricalForOpponents": false
+            },
+            {
+              "section": "Battlefield"
             }
           ]
         },
