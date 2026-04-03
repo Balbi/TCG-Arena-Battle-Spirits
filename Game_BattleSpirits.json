@@ -11,7 +11,9 @@
     "dataUrl": "https://balbi.github.io/TCG-Arena-Battle-Spirits/BattleSpiritsCards.json",
     "cardBack": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/card-back.png",
     "cardBackColor": "#000000",
-    "extraCardBacks": {}
+    "extraCardBacks": {
+      "Cores": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/core.png"
+    }
   },
   "deckBuilding": {
     "mainFilters": [
@@ -46,14 +48,14 @@
       "beforeGameStart": {
         "initialBoardSetup": [
           {
-            "createCardId": "42a40c74-9a93-4b83-be25-977bdf315cf1",
-            "count": 100,
+            "createCardId": "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
+            "count": 50,
             "destination": "Cores"
           },
           {
-            "createCardId": "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
-            "count": 200,
-            "destination": "Cores"
+            "createCardId": "42a40c74-9a93-4b83-be25-977bdf315cf1",
+            "count": 1,
+            "destination": "Mana"
           }
         ]
       },
