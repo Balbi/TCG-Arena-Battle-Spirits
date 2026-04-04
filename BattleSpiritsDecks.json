@@ -1,1 +1,530 @@
-[]
+[
+  {
+    "title": "Starter Deck 01",
+    "id": "1193ab98-d8cf-47c3-b2b2-c74d82109a6f",
+    "cardCount": 40,
+    "createdAt": "2026-04-04T06:24:51.171Z",
+    "lastModifiedAt": "2026-04-04T06:26:00.935Z",
+    "game": "Battle Spirits",
+    "format": [
+      "Standard"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Spirit",
+        "Nexus",
+        "Magic"
+      ],
+      "Spirit": [
+        {
+          "count": 3,
+          "id": "26RSD01-001"
+        },
+        {
+          "count": 3,
+          "id": "26RSD01-002"
+        },
+        {
+          "count": 2,
+          "id": "26RSD01-003"
+        },
+        {
+          "count": 3,
+          "id": "26RSD01-004"
+        },
+        {
+          "count": 3,
+          "id": "26RSD01-005"
+        },
+        {
+          "count": 2,
+          "id": "26RSD01-006"
+        },
+        {
+          "count": 2,
+          "id": "26RSD01-007"
+        },
+        {
+          "count": 2,
+          "id": "26RSD01-008"
+        },
+        {
+          "count": 2,
+          "id": "26RSD01-009"
+        },
+        {
+          "count": 2,
+          "id": "26RSD01-X01"
+        },
+        {
+          "count": 2,
+          "id": "26RSD01-X02"
+        }
+      ],
+      "Nexus": [
+        {
+          "count": 3,
+          "id": "26RSD01-010"
+        },
+        {
+          "count": 3,
+          "id": "26RSD01-011"
+        }
+      ],
+      "Magic": [
+        {
+          "count": 3,
+          "id": "26RSD01-012"
+        },
+        {
+          "count": 3,
+          "id": "26RSD01-013"
+        },
+        {
+          "count": 2,
+          "id": "26RSD01-014"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Starter Deck 02",
+    "id": "ea635e35-3f7f-4cbe-be89-cf83a370264d",
+    "cardCount": 40,
+    "createdAt": "2026-04-04T06:27:05.184Z",
+    "lastModifiedAt": "2026-04-04T06:27:47.212Z",
+    "game": "Battle Spirits",
+    "format": [
+      "Standard"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Spirit",
+        "Nexus",
+        "Magic"
+      ],
+      "Spirit": [
+        {
+          "count": 3,
+          "id": "26RSD02-001"
+        },
+        {
+          "count": 3,
+          "id": "26RSD02-002"
+        },
+        {
+          "count": 3,
+          "id": "26RSD02-003"
+        },
+        {
+          "count": 2,
+          "id": "26RSD02-004"
+        },
+        {
+          "count": 3,
+          "id": "26RSD02-005"
+        },
+        {
+          "count": 2,
+          "id": "26RSD02-006"
+        },
+        {
+          "count": 2,
+          "id": "26RSD02-007"
+        },
+        {
+          "count": 3,
+          "id": "26RSD02-008"
+        },
+        {
+          "count": 2,
+          "id": "26RSD02-X01"
+        },
+        {
+          "count": 2,
+          "id": "26RSD02-X02"
+        }
+      ],
+      "Nexus": [
+        {
+          "count": 3,
+          "id": "26RSD02-009"
+        },
+        {
+          "count": 3,
+          "id": "26RSD02-010"
+        }
+      ],
+      "Magic": [
+        {
+          "count": 3,
+          "id": "26RSD02-011"
+        },
+        {
+          "count": 2,
+          "id": "26RSD02-012"
+        },
+        {
+          "count": 2,
+          "id": "26RSD02-013"
+        },
+        {
+          "count": 2,
+          "id": "26RSD02-014"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Starter Deck 03",
+    "id": "266881b8-1433-43f6-aa20-ab8e92afbb16",
+    "cardCount": 40,
+    "createdAt": "2026-04-04T06:28:09.731Z",
+    "lastModifiedAt": "2026-04-04T06:29:01.921Z",
+    "game": "Battle Spirits",
+    "format": [
+      "Standard"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Spirit",
+        "Nexus",
+        "Magic"
+      ],
+      "Spirit": [
+        {
+          "count": 2,
+          "id": "26RSD03-001"
+        },
+        {
+          "count": 3,
+          "id": "26RSD03-002"
+        },
+        {
+          "count": 2,
+          "id": "26RSD03-003"
+        },
+        {
+          "count": 3,
+          "id": "26RSD03-004"
+        },
+        {
+          "count": 3,
+          "id": "26RSD03-005"
+        },
+        {
+          "count": 2,
+          "id": "26RSD03-006"
+        },
+        {
+          "count": 2,
+          "id": "26RSD03-007"
+        },
+        {
+          "count": 3,
+          "id": "26RSD03-008"
+        },
+        {
+          "count": 2,
+          "id": "26RSD03-009"
+        },
+        {
+          "count": 2,
+          "id": "26RSD03-X01"
+        },
+        {
+          "count": 2,
+          "id": "26RSD03-X02"
+        }
+      ],
+      "Nexus": [
+        {
+          "count": 3,
+          "id": "26RSD03-010"
+        },
+        {
+          "count": 3,
+          "id": "26RSD03-011"
+        }
+      ],
+      "Magic": [
+        {
+          "count": 3,
+          "id": "26RSD03-012"
+        },
+        {
+          "count": 3,
+          "id": "26RSD03-013"
+        },
+        {
+          "count": 2,
+          "id": "26RSD03-014"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Starter Deck 04",
+    "id": "713163f2-79c8-4c47-b811-7545fb2a031f",
+    "cardCount": 40,
+    "createdAt": "2026-04-04T06:29:34.197Z",
+    "lastModifiedAt": "2026-04-04T06:30:07.805Z",
+    "game": "Battle Spirits",
+    "format": [
+      "Standard"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Spirit",
+        "Nexus",
+        "Magic"
+      ],
+      "Spirit": [
+        {
+          "count": 3,
+          "id": "26RSD04-001"
+        },
+        {
+          "count": 3,
+          "id": "26RSD04-002"
+        },
+        {
+          "count": 3,
+          "id": "26RSD04-003"
+        },
+        {
+          "count": 2,
+          "id": "26RSD04-004"
+        },
+        {
+          "count": 3,
+          "id": "26RSD04-005"
+        },
+        {
+          "count": 2,
+          "id": "26RSD04-006"
+        },
+        {
+          "count": 2,
+          "id": "26RSD04-007"
+        },
+        {
+          "count": 2,
+          "id": "26RSD04-008"
+        },
+        {
+          "count": 2,
+          "id": "26RSD04-X01"
+        },
+        {
+          "count": 2,
+          "id": "26RSD04-X02"
+        }
+      ],
+      "Nexus": [
+        {
+          "count": 3,
+          "id": "26RSD04-009"
+        },
+        {
+          "count": 3,
+          "id": "26RSD04-010"
+        },
+        {
+          "count": 2,
+          "id": "26RSD04-011"
+        }
+      ],
+      "Magic": [
+        {
+          "count": 3,
+          "id": "26RSD04-012"
+        },
+        {
+          "count": 3,
+          "id": "26RSD04-013"
+        },
+        {
+          "count": 2,
+          "id": "26RSD04-014"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Starter Deck 05",
+    "id": "15b1fbf1-0f98-4629-a7a2-5f6f80a257f4",
+    "cardCount": 40,
+    "createdAt": "2026-04-04T06:30:36.086Z",
+    "lastModifiedAt": "2026-04-04T06:31:17.454Z",
+    "game": "Battle Spirits",
+    "format": [
+      "Standard"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Spirit",
+        "Nexus",
+        "Magic"
+      ],
+      "Spirit": [
+        {
+          "count": 3,
+          "id": "26RSD05-001"
+        },
+        {
+          "count": 3,
+          "id": "26RSD05-002"
+        },
+        {
+          "count": 2,
+          "id": "26RSD05-003"
+        },
+        {
+          "count": 3,
+          "id": "26RSD05-004"
+        },
+        {
+          "count": 3,
+          "id": "26RSD05-005"
+        },
+        {
+          "count": 2,
+          "id": "26RSD05-006"
+        },
+        {
+          "count": 2,
+          "id": "26RSD05-007"
+        },
+        {
+          "count": 2,
+          "id": "26RSD05-008"
+        },
+        {
+          "count": 2,
+          "id": "26RSD05-X01"
+        },
+        {
+          "count": 2,
+          "id": "26RSD05-X02"
+        }
+      ],
+      "Nexus": [
+        {
+          "count": 3,
+          "id": "26RSD05-009"
+        },
+        {
+          "count": 3,
+          "id": "26RSD05-010"
+        }
+      ],
+      "Magic": [
+        {
+          "count": 3,
+          "id": "26RSD05-011"
+        },
+        {
+          "count": 3,
+          "id": "26RSD05-012"
+        },
+        {
+          "count": 2,
+          "id": "26RSD05-013"
+        },
+        {
+          "count": 2,
+          "id": "26RSD05-014"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Starter Deck 06",
+    "id": "e12289ed-0e8a-49e9-bff3-f9adc9059be0",
+    "cardCount": 40,
+    "createdAt": "2026-04-04T06:31:32.192Z",
+    "lastModifiedAt": "2026-04-04T06:32:19.931Z",
+    "game": "Battle Spirits",
+    "format": [
+      "Standard"
+    ],
+    "deckList": {
+      "categoriesOrder": [
+        "Spirit",
+        "Nexus",
+        "Magic"
+      ],
+      "Spirit": [
+        {
+          "count": 3,
+          "id": "26RSD06-001"
+        },
+        {
+          "count": 3,
+          "id": "26RSD06-002"
+        },
+        {
+          "count": 2,
+          "id": "26RSD06-003"
+        },
+        {
+          "count": 2,
+          "id": "26RSD06-004"
+        },
+        {
+          "count": 3,
+          "id": "26RSD06-005"
+        },
+        {
+          "count": 2,
+          "id": "26RSD06-006"
+        },
+        {
+          "count": 3,
+          "id": "26RSD06-007"
+        },
+        {
+          "count": 2,
+          "id": "26RSD06-008"
+        },
+        {
+          "count": 2,
+          "id": "26RSD06-X01"
+        },
+        {
+          "count": 2,
+          "id": "26RSD06-X02"
+        }
+      ],
+      "Nexus": [
+        {
+          "count": 3,
+          "id": "26RSD06-009"
+        },
+        {
+          "count": 3,
+          "id": "26RSD06-010"
+        },
+        {
+          "count": 3,
+          "id": "26RSD06-011"
+        }
+      ],
+      "Magic": [
+        {
+          "count": 3,
+          "id": "26RSD06-012"
+        },
+        {
+          "count": 2,
+          "id": "26RSD06-013"
+        },
+        {
+          "count": 2,
+          "id": "26RSD06-014"
+        }
+      ]
+    }
+  }
+]
