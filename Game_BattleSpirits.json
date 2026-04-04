@@ -118,7 +118,8 @@
           "Cores": "Mana"
         },
         "autoPlayFromStack": {
-          "Magic": "Discard"
+          "Magic": "Discard",
+          "Cores": "Mana"
         },
         "sectionsDict": {
           "Cores": {

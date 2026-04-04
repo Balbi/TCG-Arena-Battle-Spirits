@@ -1,65 +1,2877 @@
 {
   "f28bca8e-7bf6-4507-9d3d-f7ef60650278": {
-      "id": "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
-      "face": {
-        "front": {
-          "name": "Core",
-          "type": "Cores",
-          "cost": 0,
-          "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/core.png",
-          "isHorizontal": false
-        }
-      },
-      "name": "Core",
-      "type": "Cores",
-      "cost": 0,
-      "Color": [],
-      "Reudction": [],
-      "Family": [],
-      "Set": ["Base"],
-      "isToken": false,
-      "tokens": [
-        "42a40c74-9a93-4b83-be25-977bdf315cf1"
-      ]
-  },
-  "42a40c74-9a93-4b83-be25-977bdf315cf1": {
-      "id": "42a40c74-9a93-4b83-be25-977bdf315cf1",
-      "face": {
-        "front": {
-          "name": "Soul Core",
-          "type": "Cores",
-          "cost": 0,
-          "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/soul-core.png",
-          "isHorizontal": false
-        }
-      },
-      "name": "Soul Core",
-      "type": "Cores",
-      "cost": 0,
-      "Color": [],
-      "Reudction": [],
-      "Family": [],
-      "Set": ["Base"],
-      "isToken": true
-  },
-  "26RBS01-055": {
-    "id": "26RBS01-055",
+    "id": "f28bca8e-7bf6-4507-9d3d-f7ef60650278",
     "face": {
       "front": {
-        "name": "The LiquidSilver Fransil",
-        "type": "Spirit",
-        "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RBS01-055.png",
+        "name": "Core",
+        "type": "Cores",
+        "cost": 0,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/core.png",
         "isHorizontal": false
       }
     },
-    "name": "The LiquidSilver Fransil",
+    "name": "Core",
+    "type": "Cores",
+    "cost": 0,
+    "Color": [],
+    "Reduction": [],
+    "Family": [],
+    "Set": [
+      "Base"
+    ],
+    "isToken": false,
+    "tokens": [
+      "42a40c74-9a93-4b83-be25-977bdf315cf1"
+    ]
+  },
+  "42a40c74-9a93-4b83-be25-977bdf315cf1": {
+    "id": "42a40c74-9a93-4b83-be25-977bdf315cf1",
+    "face": {
+      "front": {
+        "name": "Soul Core",
+        "type": "Cores",
+        "cost": 0,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/soul-core.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Soul Core",
+    "type": "Cores",
+    "cost": 0,
+    "Color": [],
+    "Reduction": [],
+    "Family": [],
+    "Set": [
+      "Base"
+    ],
+    "isToken": true
+  },
+  "26RSD01-001": {
+    "id": "26RSD01-001",
+    "face": {
+      "front": {
+        "name": "ムーシャッコ",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-001.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ムーシャッコ",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red"
+    ],
+    "Family": [
+      "風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-002": {
+    "id": "26RSD01-002",
+    "face": {
+      "front": {
+        "name": "ゲン＝ボー",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-002.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ゲン＝ボー",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "紅雲・風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-003": {
+    "id": "26RSD01-003",
+    "face": {
+      "front": {
+        "name": "ロワミーク",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-003.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ロワミーク",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "紅雲・風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-004": {
+    "id": "26RSD01-004",
+    "face": {
+      "front": {
+        "name": "ハーリア",
+        "type": "Spirit",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-004.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ハーリア",
+    "type": "Spirit",
+    "cost": 4,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-005": {
+    "id": "26RSD01-005",
+    "face": {
+      "front": {
+        "name": "グン＝ガタ",
+        "type": "Spirit",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-005.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "グン＝ガタ",
+    "type": "Spirit",
+    "cost": 4,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "紅雲・風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-006": {
+    "id": "26RSD01-006",
+    "face": {
+      "front": {
+        "name": "キュペル",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-006.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "キュペル",
     "type": "Spirit",
     "cost": 5,
-    "Color": ["White"],
-    "Reudction": ["Green","Green"],
-    "Family": ["Leucomyst", "Mercury"],
-    "Set": ["26RBS01"],
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-007": {
+    "id": "26RSD01-007",
+    "face": {
+      "front": {
+        "name": "グライファー",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-007.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "グライファー",
+    "type": "Spirit",
+    "cost": 5,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-008": {
+    "id": "26RSD01-008",
+    "face": {
+      "front": {
+        "name": "セルタリウス",
+        "type": "Spirit",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-008.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "セルタリウス",
+    "type": "Spirit",
+    "cost": 6,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-009": {
+    "id": "26RSD01-009",
+    "face": {
+      "front": {
+        "name": "飛傑レウファルス",
+        "type": "Spirit",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-009.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "飛傑レウファルス",
+    "type": "Spirit",
+    "cost": 6,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "紅雲・風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-010": {
+    "id": "26RSD01-010",
+    "face": {
+      "front": {
+        "name": "最奥：風牙岩",
+        "type": "Nexus",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-010.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "最奥：風牙岩",
+    "type": "Nexus",
+    "cost": 3,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-011": {
+    "id": "26RSD01-011",
+    "face": {
+      "front": {
+        "name": "浮遊岩域",
+        "type": "Nexus",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-011.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "浮遊岩域",
+    "type": "Nexus",
+    "cost": 4,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-012": {
+    "id": "26RSD01-012",
+    "face": {
+      "front": {
+        "name": "ブレイククロー",
+        "type": "Magic",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-012.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ブレイククロー",
+    "type": "Magic",
+    "cost": 3,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-013": {
+    "id": "26RSD01-013",
+    "face": {
+      "front": {
+        "name": "オフェリングドロー",
+        "type": "Magic",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-013.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "オフェリングドロー",
+    "type": "Magic",
+    "cost": 4,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-014": {
+    "id": "26RSD01-014",
+    "face": {
+      "front": {
+        "name": "フレイムハリケーン",
+        "type": "Magic",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-014.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "フレイムハリケーン",
+    "type": "Magic",
+    "cost": 6,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-X01": {
+    "id": "26RSD01-X01",
+    "face": {
+      "front": {
+        "name": "飛赫レンシス",
+        "type": "Spirit",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-X01.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "飛赫レンシス",
+    "type": "Spirit",
+    "cost": 7,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red",
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD01-X02": {
+    "id": "26RSD01-X02",
+    "face": {
+      "front": {
+        "name": "飛剛アクライ",
+        "type": "Spirit",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-X02.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "飛剛アクライ",
+    "type": "Spirit",
+    "cost": 7,
+    "Color": [
+      "Red"
+    ],
+    "Reduction": [
+      "Red",
+      "Red",
+      "Red",
+      "Red"
+    ],
+    "Family": [
+      "風牙"
+    ],
+    "Set": [
+      "26RSD01"
+    ],
+    "isToken": false
+  },
+  "26RSD02-001": {
+    "id": "26RSD02-001",
+    "face": {
+      "front": {
+        "name": "スクルース",
+        "type": "Spirit",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-001.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "スクルース",
+    "type": "Spirit",
+    "cost": 2,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple"
+    ],
+    "Family": [
+      "暗紫・血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-002": {
+    "id": "26RSD02-002",
+    "face": {
+      "front": {
+        "name": "フィラルバ",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-002.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "フィラルバ",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple"
+    ],
+    "Family": [
+      "血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-003": {
+    "id": "26RSD02-003",
+    "face": {
+      "front": {
+        "name": "メディチ・キャタリー",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-003.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "メディチ・キャタリー",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "暗紫・血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-004": {
+    "id": "26RSD02-004",
+    "face": {
+      "front": {
+        "name": "ガルシス",
+        "type": "Spirit",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-004.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ガルシス",
+    "type": "Spirit",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-005": {
+    "id": "26RSD02-005",
+    "face": {
+      "front": {
+        "name": "ブギールガー",
+        "type": "Spirit",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-005.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ブギールガー",
+    "type": "Spirit",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "暗紫・血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-006": {
+    "id": "26RSD02-006",
+    "face": {
+      "front": {
+        "name": "ラム・トーカー",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-006.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ラム・トーカー",
+    "type": "Spirit",
+    "cost": 5,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "暗紫・血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-007": {
+    "id": "26RSD02-007",
+    "face": {
+      "front": {
+        "name": "ラミーカ女史",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-007.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ラミーカ女史",
+    "type": "Spirit",
+    "cost": 5,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-008": {
+    "id": "26RSD02-008",
+    "face": {
+      "front": {
+        "name": "オーグル",
+        "type": "Spirit",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-008.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "オーグル",
+    "type": "Spirit",
+    "cost": 6,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-009": {
+    "id": "26RSD02-009",
+    "face": {
+      "front": {
+        "name": "最奥：血醒連峰",
+        "type": "Nexus",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-009.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "最奥：血醒連峰",
+    "type": "Nexus",
+    "cost": 3,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-010": {
+    "id": "26RSD02-010",
+    "face": {
+      "front": {
+        "name": "紫枯れ領",
+        "type": "Nexus",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-010.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "紫枯れ領",
+    "type": "Nexus",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-011": {
+    "id": "26RSD02-011",
+    "face": {
+      "front": {
+        "name": "ダークハング",
+        "type": "Magic",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-011.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ダークハング",
+    "type": "Magic",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-012": {
+    "id": "26RSD02-012",
+    "face": {
+      "front": {
+        "name": "ブラッドシップ",
+        "type": "Magic",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-012.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ブラッドシップ",
+    "type": "Magic",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-013": {
+    "id": "26RSD02-013",
+    "face": {
+      "front": {
+        "name": "レイニーポイズン",
+        "type": "Magic",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-013.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "レイニーポイズン",
+    "type": "Magic",
+    "cost": 4,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-014": {
+    "id": "26RSD02-014",
+    "face": {
+      "front": {
+        "name": "ソウルバイト",
+        "type": "Magic",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-014.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ソウルバイト",
+    "type": "Magic",
+    "cost": 6,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-X01": {
+    "id": "26RSD02-X01",
+    "face": {
+      "front": {
+        "name": "ネフィラー婦長",
+        "type": "Spirit",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-X01.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ネフィラー婦長",
+    "type": "Spirit",
+    "cost": 7,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD02-X02": {
+    "id": "26RSD02-X02",
+    "face": {
+      "front": {
+        "name": "ペリゴルージュ帝",
+        "type": "Spirit",
+        "cost": 9,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-X02.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ペリゴルージュ帝",
+    "type": "Spirit",
+    "cost": 9,
+    "Color": [
+      "Purple"
+    ],
+    "Reduction": [
+      "Purple",
+      "Purple",
+      "Purple",
+      "Purple"
+    ],
+    "Family": [
+      "血醒"
+    ],
+    "Set": [
+      "26RSD02"
+    ],
+    "isToken": false
+  },
+  "26RSD03-001": {
+    "id": "26RSD03-001",
+    "face": {
+      "front": {
+        "name": "フラッティ",
+        "type": "Spirit",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-001.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "フラッティ",
+    "type": "Spirit",
+    "cost": 2,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green"
+    ],
+    "Family": [
+      "甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-002": {
+    "id": "26RSD03-002",
+    "face": {
+      "front": {
+        "name": "パッファー",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-002.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "パッファー",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green"
+    ],
+    "Family": [
+      "甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-003": {
+    "id": "26RSD03-003",
+    "face": {
+      "front": {
+        "name": "ラスヘッド",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-003.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ラスヘッド",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green"
+    ],
+    "Family": [
+      "海緑・甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-004": {
+    "id": "26RSD03-004",
+    "face": {
+      "front": {
+        "name": "ストラレイ",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-004.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ストラレイ",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "海緑・甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-005": {
+    "id": "26RSD03-005",
+    "face": {
+      "front": {
+        "name": "モラモーラ",
+        "type": "Spirit",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-005.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "モラモーラ",
+    "type": "Spirit",
+    "cost": 4,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "海緑・甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-006": {
+    "id": "26RSD03-006",
+    "face": {
+      "front": {
+        "name": "海幻コエラ＝カンサス",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-006.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "海幻コエラ＝カンサス",
+    "type": "Spirit",
+    "cost": 5,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-007": {
+    "id": "26RSD03-007",
+    "face": {
+      "front": {
+        "name": "ガリザロト",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-007.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ガリザロト",
+    "type": "Spirit",
+    "cost": 5,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-008": {
+    "id": "26RSD03-008",
+    "face": {
+      "front": {
+        "name": "重顎ドロゴリアス",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-008.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "重顎ドロゴリアス",
+    "type": "Spirit",
+    "cost": 5,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-009": {
+    "id": "26RSD03-009",
+    "face": {
+      "front": {
+        "name": "透笠オリンディアス",
+        "type": "Spirit",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-009.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "透笠オリンディアス",
+    "type": "Spirit",
+    "cost": 6,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-010": {
+    "id": "26RSD03-010",
+    "face": {
+      "front": {
+        "name": "最奥：緑淵深",
+        "type": "Nexus",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-010.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "最奥：緑淵深",
+    "type": "Nexus",
+    "cost": 3,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-011": {
+    "id": "26RSD03-011",
+    "face": {
+      "front": {
+        "name": "水泡群域",
+        "type": "Nexus",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-011.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "水泡群域",
+    "type": "Nexus",
+    "cost": 4,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-012": {
+    "id": "26RSD03-012",
+    "face": {
+      "front": {
+        "name": "ハンドモルト",
+        "type": "Magic",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-012.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ハンドモルト",
+    "type": "Magic",
+    "cost": 4,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-013": {
+    "id": "26RSD03-013",
+    "face": {
+      "front": {
+        "name": "ボルテクスシェイブ",
+        "type": "Magic",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-013.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ボルテクスシェイブ",
+    "type": "Magic",
+    "cost": 4,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-014": {
+    "id": "26RSD03-014",
+    "face": {
+      "front": {
+        "name": "テンタクルアタック",
+        "type": "Magic",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-014.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "テンタクルアタック",
+    "type": "Magic",
+    "cost": 6,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-X01": {
+    "id": "26RSD03-X01",
+    "face": {
+      "front": {
+        "name": "甲手スクィード",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-X01.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "甲手スクィード",
+    "type": "Spirit",
+    "cost": 5,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "海緑・甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD03-X02": {
+    "id": "26RSD03-X02",
+    "face": {
+      "front": {
+        "name": "深巣ダンテクレオ",
+        "type": "Spirit",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-X02.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "深巣ダンテクレオ",
+    "type": "Spirit",
+    "cost": 6,
+    "Color": [
+      "Green"
+    ],
+    "Reduction": [
+      "Green",
+      "Green",
+      "Green"
+    ],
+    "Family": [
+      "甲魚"
+    ],
+    "Set": [
+      "26RSD03"
+    ],
+    "isToken": false
+  },
+  "26RSD04-001": {
+    "id": "26RSD04-001",
+    "face": {
+      "front": {
+        "name": "アトゥン",
+        "type": "Spirit",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-001.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "アトゥン",
+    "type": "Spirit",
+    "cost": 2,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White"
+    ],
+    "Family": [
+      "鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-002": {
+    "id": "26RSD04-002",
+    "face": {
+      "front": {
+        "name": "ノンリル",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-002.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ノンリル",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White"
+    ],
+    "Family": [
+      "鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-003": {
+    "id": "26RSD04-003",
+    "face": {
+      "front": {
+        "name": "アーシヌス",
+        "type": "Spirit",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-003.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "アーシヌス",
+    "type": "Spirit",
+    "cost": 4,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White"
+    ],
+    "Family": [
+      "鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-004": {
+    "id": "26RSD04-004",
+    "face": {
+      "front": {
+        "name": "重爪フォークロアー",
+        "type": "Spirit",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-004.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "重爪フォークロアー",
+    "type": "Spirit",
+    "cost": 4,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White",
+      "White"
+    ],
+    "Family": [
+      "白妙・鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-005": {
+    "id": "26RSD04-005",
+    "face": {
+      "front": {
+        "name": "チムニルガ",
+        "type": "Spirit",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-005.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "チムニルガ",
+    "type": "Spirit",
+    "cost": 4,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White",
+      "White"
+    ],
+    "Family": [
+      "白妙・鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-006": {
+    "id": "26RSD04-006",
+    "face": {
+      "front": {
+        "name": "ダビティ",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-006.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ダビティ",
+    "type": "Spirit",
+    "cost": 5,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White"
+    ],
+    "Family": [
+      "鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-007": {
+    "id": "26RSD04-007",
+    "face": {
+      "front": {
+        "name": "ジャンクス",
+        "type": "Spirit",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-007.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ジャンクス",
+    "type": "Spirit",
+    "cost": 6,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White",
+      "White"
+    ],
+    "Family": [
+      "白妙・鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-008": {
+    "id": "26RSD04-008",
+    "face": {
+      "front": {
+        "name": "豪腕アナトマ",
+        "type": "Spirit",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-008.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "豪腕アナトマ",
+    "type": "Spirit",
+    "cost": 7,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White",
+      "White",
+      "White"
+    ],
+    "Family": [
+      "白妙・鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-009": {
+    "id": "26RSD04-009",
+    "face": {
+      "front": {
+        "name": "石切平原",
+        "type": "Nexus",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-009.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "石切平原",
+    "type": "Nexus",
+    "cost": 3,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White"
+    ],
+    "Family": [
+      "鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-010": {
+    "id": "26RSD04-010",
+    "face": {
+      "front": {
+        "name": "最奥：白天平",
+        "type": "Nexus",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-010.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "最奥：白天平",
+    "type": "Nexus",
+    "cost": 3,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White"
+    ],
+    "Family": [
+      "鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-011": {
+    "id": "26RSD04-011",
+    "face": {
+      "front": {
+        "name": "立石円陣",
+        "type": "Nexus",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-011.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "立石円陣",
+    "type": "Nexus",
+    "cost": 4,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White",
+      "White"
+    ],
+    "Family": [
+      "鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-012": {
+    "id": "26RSD04-012",
+    "face": {
+      "front": {
+        "name": "ロックドリリング",
+        "type": "Magic",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-012.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ロックドリリング",
+    "type": "Magic",
+    "cost": 2,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White"
+    ],
+    "Family": [
+      "鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-013": {
+    "id": "26RSD04-013",
+    "face": {
+      "front": {
+        "name": "ドリームローター",
+        "type": "Magic",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-013.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ドリームローター",
+    "type": "Magic",
+    "cost": 4,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White",
+      "White"
+    ],
+    "Family": [
+      "鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-014": {
+    "id": "26RSD04-014",
+    "face": {
+      "front": {
+        "name": "ディフェンシブゲート",
+        "type": "Magic",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-014.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ディフェンシブゲート",
+    "type": "Magic",
+    "cost": 5,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White",
+      "White"
+    ],
+    "Family": [
+      "鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-X01": {
+    "id": "26RSD04-X01",
+    "face": {
+      "front": {
+        "name": "陸舟マテンダー",
+        "type": "Spirit",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-X01.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "陸舟マテンダー",
+    "type": "Spirit",
+    "cost": 8,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White",
+      "White",
+      "White"
+    ],
+    "Family": [
+      "鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD04-X02": {
+    "id": "26RSD04-X02",
+    "face": {
+      "front": {
+        "name": "真門官サヴァトマ",
+        "type": "Spirit",
+        "cost": 9,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-X02.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "真門官サヴァトマ",
+    "type": "Spirit",
+    "cost": 9,
+    "Color": [
+      "White"
+    ],
+    "Reduction": [
+      "White",
+      "White",
+      "White",
+      "White",
+      "White"
+    ],
+    "Family": [
+      "鉱人"
+    ],
+    "Set": [
+      "26RSD04"
+    ],
+    "isToken": false
+  },
+  "26RSD05-001": {
+    "id": "26RSD05-001",
+    "face": {
+      "front": {
+        "name": "クイール",
+        "type": "Spirit",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-001.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "クイール",
+    "type": "Spirit",
+    "cost": 2,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow"
+    ],
+    "Family": [
+      "黄玉・雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-002": {
+    "id": "26RSD05-002",
+    "face": {
+      "front": {
+        "name": "アマール",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-002.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "アマール",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow"
+    ],
+    "Family": [
+      "雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-003": {
+    "id": "26RSD05-003",
+    "face": {
+      "front": {
+        "name": "ラニラヤ",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-003.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ラニラヤ",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "黄玉・雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-004": {
+    "id": "26RSD05-004",
+    "face": {
+      "front": {
+        "name": "ディヴァエス",
+        "type": "Spirit",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-004.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ディヴァエス",
+    "type": "Spirit",
+    "cost": 4,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-005": {
+    "id": "26RSD05-005",
+    "face": {
+      "front": {
+        "name": "ルクアンス",
+        "type": "Spirit",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-005.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ルクアンス",
+    "type": "Spirit",
+    "cost": 4,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "黄玉・雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-006": {
+    "id": "26RSD05-006",
+    "face": {
+      "front": {
+        "name": "セマローグ",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-006.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "セマローグ",
+    "type": "Spirit",
+    "cost": 5,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "黄玉・雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-007": {
+    "id": "26RSD05-007",
+    "face": {
+      "front": {
+        "name": "雷探ペルボーグ",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-007.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "雷探ペルボーグ",
+    "type": "Spirit",
+    "cost": 5,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-008": {
+    "id": "26RSD05-008",
+    "face": {
+      "front": {
+        "name": "雷天拳ウィーギル",
+        "type": "Spirit",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-008.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "雷天拳ウィーギル",
+    "type": "Spirit",
+    "cost": 6,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-009": {
+    "id": "26RSD05-009",
+    "face": {
+      "front": {
+        "name": "雷坑道",
+        "type": "Nexus",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-009.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "雷坑道",
+    "type": "Nexus",
+    "cost": 3,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-010": {
+    "id": "26RSD05-010",
+    "face": {
+      "front": {
+        "name": "最奥：大雷山嶺",
+        "type": "Nexus",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-010.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "最奥：大雷山嶺",
+    "type": "Nexus",
+    "cost": 4,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-011": {
+    "id": "26RSD05-011",
+    "face": {
+      "front": {
+        "name": "ファイアピラー",
+        "type": "Magic",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-011.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ファイアピラー",
+    "type": "Magic",
+    "cost": 3,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-012": {
+    "id": "26RSD05-012",
+    "face": {
+      "front": {
+        "name": "リバースサンダー",
+        "type": "Magic",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-012.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "リバースサンダー",
+    "type": "Magic",
+    "cost": 3,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-013": {
+    "id": "26RSD05-013",
+    "face": {
+      "front": {
+        "name": "ネストリング",
+        "type": "Magic",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-013.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ネストリング",
+    "type": "Magic",
+    "cost": 4,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-014": {
+    "id": "26RSD05-014",
+    "face": {
+      "front": {
+        "name": "トリプルサンダー",
+        "type": "Magic",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-014.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "トリプルサンダー",
+    "type": "Magic",
+    "cost": 6,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-X01": {
+    "id": "26RSD05-X01",
+    "face": {
+      "front": {
+        "name": "雷噴ペールクアール",
+        "type": "Spirit",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-X01.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "雷噴ペールクアール",
+    "type": "Spirit",
+    "cost": 7,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD05-X02": {
+    "id": "26RSD05-X02",
+    "face": {
+      "front": {
+        "name": "雷術ルクーナス",
+        "type": "Spirit",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-X02.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "雷術ルクーナス",
+    "type": "Spirit",
+    "cost": 7,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow",
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "雷竜"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
+  "26RSD06-001": {
+    "id": "26RSD06-001",
+    "face": {
+      "front": {
+        "name": "ナウサ",
+        "type": "Spirit",
+        "cost": 2,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-001.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ナウサ",
+    "type": "Spirit",
+    "cost": 2,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue"
+    ],
+    "Family": [
+      "凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-002": {
+    "id": "26RSD06-002",
+    "face": {
+      "front": {
+        "name": "ディアトラ",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-002.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ディアトラ",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue"
+    ],
+    "Family": [
+      "凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-003": {
+    "id": "26RSD06-003",
+    "face": {
+      "front": {
+        "name": "メルラク",
+        "type": "Spirit",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-003.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "メルラク",
+    "type": "Spirit",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue"
+    ],
+    "Family": [
+      "凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-004": {
+    "id": "26RSD06-004",
+    "face": {
+      "front": {
+        "name": "ライセロス",
+        "type": "Spirit",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-004.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ライセロス",
+    "type": "Spirit",
+    "cost": 4,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "青樹・凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-005": {
+    "id": "26RSD06-005",
+    "face": {
+      "front": {
+        "name": "スロウス",
+        "type": "Spirit",
+        "cost": 4,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-005.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "スロウス",
+    "type": "Spirit",
+    "cost": 4,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "青樹・凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-006": {
+    "id": "26RSD06-006",
+    "face": {
+      "front": {
+        "name": "スヴァリス",
+        "type": "Spirit",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-006.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "スヴァリス",
+    "type": "Spirit",
+    "cost": 5,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-007": {
+    "id": "26RSD06-007",
+    "face": {
+      "front": {
+        "name": "アルマリト",
+        "type": "Spirit",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-007.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "アルマリト",
+    "type": "Spirit",
+    "cost": 6,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "青樹・凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-008": {
+    "id": "26RSD06-008",
+    "face": {
+      "front": {
+        "name": "樹影フェリオ",
+        "type": "Spirit",
+        "cost": 7,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-008.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "樹影フェリオ",
+    "type": "Spirit",
+    "cost": 7,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue",
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "青樹・凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-009": {
+    "id": "26RSD06-009",
+    "face": {
+      "front": {
+        "name": "雲霧森林",
+        "type": "Nexus",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-009.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "雲霧森林",
+    "type": "Nexus",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-010": {
+    "id": "26RSD06-010",
+    "face": {
+      "front": {
+        "name": "最奥：極大樹",
+        "type": "Nexus",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-010.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "最奥：極大樹",
+    "type": "Nexus",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-011": {
+    "id": "26RSD06-011",
+    "face": {
+      "front": {
+        "name": "砲森弾林",
+        "type": "Nexus",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-011.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "砲森弾林",
+    "type": "Nexus",
+    "cost": 5,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-012": {
+    "id": "26RSD06-012",
+    "face": {
+      "front": {
+        "name": "フィーディングドロー",
+        "type": "Magic",
+        "cost": 3,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-012.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "フィーディングドロー",
+    "type": "Magic",
+    "cost": 3,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-013": {
+    "id": "26RSD06-013",
+    "face": {
+      "front": {
+        "name": "ステムランス",
+        "type": "Magic",
+        "cost": 5,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-013.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "ステムランス",
+    "type": "Magic",
+    "cost": 5,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-014": {
+    "id": "26RSD06-014",
+    "face": {
+      "front": {
+        "name": "フルストマック",
+        "type": "Magic",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-014.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "フルストマック",
+    "type": "Magic",
+    "cost": 6,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue",
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-X01": {
+    "id": "26RSD06-X01",
+    "face": {
+      "front": {
+        "name": "盾角ギガンテリオン",
+        "type": "Spirit",
+        "cost": 8,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-X01.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "盾角ギガンテリオン",
+    "type": "Spirit",
+    "cost": 8,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue",
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
+    "isToken": false
+  },
+  "26RSD06-X02": {
+    "id": "26RSD06-X02",
+    "face": {
+      "front": {
+        "name": "極樹エレファス",
+        "type": "Spirit",
+        "cost": 10,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-X02.webp",
+        "isHorizontal": false
+      }
+    },
+    "name": "極樹エレファス",
+    "type": "Spirit",
+    "cost": 10,
+    "Color": [
+      "Blue"
+    ],
+    "Reduction": [
+      "Blue",
+      "Blue",
+      "Blue",
+      "Blue"
+    ],
+    "Family": [
+      "凶獣"
+    ],
+    "Set": [
+      "26RSD06"
+    ],
     "isToken": false
   }
 }
