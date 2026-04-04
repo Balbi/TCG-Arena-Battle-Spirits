@@ -36,7 +36,6 @@
         "reversedLegality": true,
         "general": {
           "min": 40,
-          "max": 40,
           "maxPerCard": 3
         },
         "categories": []
