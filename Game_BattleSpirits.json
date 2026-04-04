@@ -1,6 +1,6 @@
 {
   "name": "Battle Spirits",
-  "menuBackgroundImage": "",
+  "menuBackgroundImage": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/banner.jpg",
   "defaultRessources": {
     "backgrounds": [],
     "decksUrl": "https://balbi.github.io/TCG-Arena-Battle-Spirits/BattleSpiritsDecks.json"
