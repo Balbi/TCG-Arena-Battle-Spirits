@@ -14,9 +14,9 @@ const TARGET_IDS = process.env.CARD_IDS
     )
   : null;
 const CARDS_JSON_PATH = path.resolve(process.cwd(), "BattleSpiritsCards.json");
-const IMAGES_ROOT = path.resolve(process.cwd(), "images");
+const IMAGES_ROOT = path.resolve(process.cwd(), "images", "cards");
 const PUBLIC_IMAGE_ROOT =
-  "https://balbi.github.io/TCG-Arena-Battle-Spirits/images";
+  "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards";
 
 const COLOR_MAP = {
   赤: "Red",

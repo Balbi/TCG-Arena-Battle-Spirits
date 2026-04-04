@@ -53,7 +53,7 @@
         "name": "ムーシャッコ",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-001.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-001.webp",
         "isHorizontal": false
       }
     },
@@ -81,7 +81,7 @@
         "name": "ゲン＝ボー",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-002.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-002.webp",
         "isHorizontal": false
       }
     },
@@ -110,7 +110,7 @@
         "name": "ロワミーク",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-003.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-003.webp",
         "isHorizontal": false
       }
     },
@@ -139,7 +139,7 @@
         "name": "ハーリア",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-004.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-004.webp",
         "isHorizontal": false
       }
     },
@@ -168,7 +168,7 @@
         "name": "グン＝ガタ",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-005.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-005.webp",
         "isHorizontal": false
       }
     },
@@ -198,7 +198,7 @@
         "name": "キュペル",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-006.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-006.webp",
         "isHorizontal": false
       }
     },
@@ -227,7 +227,7 @@
         "name": "グライファー",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-007.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-007.webp",
         "isHorizontal": false
       }
     },
@@ -257,7 +257,7 @@
         "name": "セルタリウス",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-008.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-008.webp",
         "isHorizontal": false
       }
     },
@@ -287,7 +287,7 @@
         "name": "飛傑レウファルス",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-009.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-009.webp",
         "isHorizontal": false
       }
     },
@@ -317,7 +317,7 @@
         "name": "最奥：風牙岩",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-010.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-010.webp",
         "isHorizontal": false
       }
     },
@@ -346,7 +346,7 @@
         "name": "浮遊岩域",
         "type": "Nexus",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-011.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-011.webp",
         "isHorizontal": false
       }
     },
@@ -375,7 +375,7 @@
         "name": "ブレイククロー",
         "type": "Magic",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-012.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-012.webp",
         "isHorizontal": false
       }
     },
@@ -404,7 +404,7 @@
         "name": "オフェリングドロー",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-013.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-013.webp",
         "isHorizontal": false
       }
     },
@@ -433,7 +433,7 @@
         "name": "フレイムハリケーン",
         "type": "Magic",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-014.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-014.webp",
         "isHorizontal": false
       }
     },
@@ -463,7 +463,7 @@
         "name": "飛赫レンシス",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-X01.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-X01.webp",
         "isHorizontal": false
       }
     },
@@ -494,7 +494,7 @@
         "name": "飛剛アクライ",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD01/26RSD01-X02.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-X02.webp",
         "isHorizontal": false
       }
     },
@@ -525,7 +525,7 @@
         "name": "スクルース",
         "type": "Spirit",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-001.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-001.webp",
         "isHorizontal": false
       }
     },
@@ -553,7 +553,7 @@
         "name": "フィラルバ",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-002.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-002.webp",
         "isHorizontal": false
       }
     },
@@ -581,7 +581,7 @@
         "name": "メディチ・キャタリー",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-003.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-003.webp",
         "isHorizontal": false
       }
     },
@@ -610,7 +610,7 @@
         "name": "ガルシス",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-004.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-004.webp",
         "isHorizontal": false
       }
     },
@@ -639,7 +639,7 @@
         "name": "ブギールガー",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-005.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-005.webp",
         "isHorizontal": false
       }
     },
@@ -669,7 +669,7 @@
         "name": "ラム・トーカー",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-006.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-006.webp",
         "isHorizontal": false
       }
     },
@@ -698,7 +698,7 @@
         "name": "ラミーカ女史",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-007.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-007.webp",
         "isHorizontal": false
       }
     },
@@ -728,7 +728,7 @@
         "name": "オーグル",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-008.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-008.webp",
         "isHorizontal": false
       }
     },
@@ -758,7 +758,7 @@
         "name": "最奥：血醒連峰",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-009.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-009.webp",
         "isHorizontal": false
       }
     },
@@ -787,7 +787,7 @@
         "name": "紫枯れ領",
         "type": "Nexus",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-010.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-010.webp",
         "isHorizontal": false
       }
     },
@@ -816,7 +816,7 @@
         "name": "ダークハング",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-011.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-011.webp",
         "isHorizontal": false
       }
     },
@@ -845,7 +845,7 @@
         "name": "ブラッドシップ",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-012.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-012.webp",
         "isHorizontal": false
       }
     },
@@ -874,7 +874,7 @@
         "name": "レイニーポイズン",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-013.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-013.webp",
         "isHorizontal": false
       }
     },
@@ -904,7 +904,7 @@
         "name": "ソウルバイト",
         "type": "Magic",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-014.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-014.webp",
         "isHorizontal": false
       }
     },
@@ -934,7 +934,7 @@
         "name": "ネフィラー婦長",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-X01.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-X01.webp",
         "isHorizontal": false
       }
     },
@@ -964,7 +964,7 @@
         "name": "ペリゴルージュ帝",
         "type": "Spirit",
         "cost": 9,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD02/26RSD02-X02.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-X02.webp",
         "isHorizontal": false
       }
     },
@@ -995,7 +995,7 @@
         "name": "フラッティ",
         "type": "Spirit",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-001.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-001.webp",
         "isHorizontal": false
       }
     },
@@ -1023,7 +1023,7 @@
         "name": "パッファー",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-002.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-002.webp",
         "isHorizontal": false
       }
     },
@@ -1051,7 +1051,7 @@
         "name": "ラスヘッド",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-003.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-003.webp",
         "isHorizontal": false
       }
     },
@@ -1079,7 +1079,7 @@
         "name": "ストラレイ",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-004.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-004.webp",
         "isHorizontal": false
       }
     },
@@ -1108,7 +1108,7 @@
         "name": "モラモーラ",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-005.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-005.webp",
         "isHorizontal": false
       }
     },
@@ -1138,7 +1138,7 @@
         "name": "海幻コエラ＝カンサス",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-006.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-006.webp",
         "isHorizontal": false
       }
     },
@@ -1167,7 +1167,7 @@
         "name": "ガリザロト",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-007.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-007.webp",
         "isHorizontal": false
       }
     },
@@ -1197,7 +1197,7 @@
         "name": "重顎ドロゴリアス",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-008.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-008.webp",
         "isHorizontal": false
       }
     },
@@ -1227,7 +1227,7 @@
         "name": "透笠オリンディアス",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-009.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-009.webp",
         "isHorizontal": false
       }
     },
@@ -1257,7 +1257,7 @@
         "name": "最奥：緑淵深",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-010.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-010.webp",
         "isHorizontal": false
       }
     },
@@ -1286,7 +1286,7 @@
         "name": "水泡群域",
         "type": "Nexus",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-011.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-011.webp",
         "isHorizontal": false
       }
     },
@@ -1315,7 +1315,7 @@
         "name": "ハンドモルト",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-012.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-012.webp",
         "isHorizontal": false
       }
     },
@@ -1344,7 +1344,7 @@
         "name": "ボルテクスシェイブ",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-013.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-013.webp",
         "isHorizontal": false
       }
     },
@@ -1374,7 +1374,7 @@
         "name": "テンタクルアタック",
         "type": "Magic",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-014.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-014.webp",
         "isHorizontal": false
       }
     },
@@ -1404,7 +1404,7 @@
         "name": "甲手スクィード",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-X01.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-X01.webp",
         "isHorizontal": false
       }
     },
@@ -1434,7 +1434,7 @@
         "name": "深巣ダンテクレオ",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD03/26RSD03-X02.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-X02.webp",
         "isHorizontal": false
       }
     },
@@ -1464,7 +1464,7 @@
         "name": "アトゥン",
         "type": "Spirit",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-001.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-001.webp",
         "isHorizontal": false
       }
     },
@@ -1492,7 +1492,7 @@
         "name": "ノンリル",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-002.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-002.webp",
         "isHorizontal": false
       }
     },
@@ -1520,7 +1520,7 @@
         "name": "アーシヌス",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-003.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-003.webp",
         "isHorizontal": false
       }
     },
@@ -1549,7 +1549,7 @@
         "name": "重爪フォークロアー",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-004.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-004.webp",
         "isHorizontal": false
       }
     },
@@ -1579,7 +1579,7 @@
         "name": "チムニルガ",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-005.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-005.webp",
         "isHorizontal": false
       }
     },
@@ -1609,7 +1609,7 @@
         "name": "ダビティ",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-006.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-006.webp",
         "isHorizontal": false
       }
     },
@@ -1638,7 +1638,7 @@
         "name": "ジャンクス",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-007.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-007.webp",
         "isHorizontal": false
       }
     },
@@ -1668,7 +1668,7 @@
         "name": "豪腕アナトマ",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-008.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-008.webp",
         "isHorizontal": false
       }
     },
@@ -1699,7 +1699,7 @@
         "name": "石切平原",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-009.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-009.webp",
         "isHorizontal": false
       }
     },
@@ -1728,7 +1728,7 @@
         "name": "最奥：白天平",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-010.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-010.webp",
         "isHorizontal": false
       }
     },
@@ -1757,7 +1757,7 @@
         "name": "立石円陣",
         "type": "Nexus",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-011.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-011.webp",
         "isHorizontal": false
       }
     },
@@ -1787,7 +1787,7 @@
         "name": "ロックドリリング",
         "type": "Magic",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-012.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-012.webp",
         "isHorizontal": false
       }
     },
@@ -1815,7 +1815,7 @@
         "name": "ドリームローター",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-013.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-013.webp",
         "isHorizontal": false
       }
     },
@@ -1845,7 +1845,7 @@
         "name": "ディフェンシブゲート",
         "type": "Magic",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-014.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-014.webp",
         "isHorizontal": false
       }
     },
@@ -1875,7 +1875,7 @@
         "name": "陸舟マテンダー",
         "type": "Spirit",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-X01.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-X01.webp",
         "isHorizontal": false
       }
     },
@@ -1906,7 +1906,7 @@
         "name": "真門官サヴァトマ",
         "type": "Spirit",
         "cost": 9,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD04/26RSD04-X02.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-X02.webp",
         "isHorizontal": false
       }
     },
@@ -1938,7 +1938,7 @@
         "name": "クイール",
         "type": "Spirit",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-001.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-001.webp",
         "isHorizontal": false
       }
     },
@@ -1966,7 +1966,7 @@
         "name": "アマール",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-002.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-002.webp",
         "isHorizontal": false
       }
     },
@@ -1994,7 +1994,7 @@
         "name": "ラニラヤ",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-003.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-003.webp",
         "isHorizontal": false
       }
     },
@@ -2023,7 +2023,7 @@
         "name": "ディヴァエス",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-004.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-004.webp",
         "isHorizontal": false
       }
     },
@@ -2052,7 +2052,7 @@
         "name": "ルクアンス",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-005.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-005.webp",
         "isHorizontal": false
       }
     },
@@ -2082,7 +2082,7 @@
         "name": "セマローグ",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-006.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-006.webp",
         "isHorizontal": false
       }
     },
@@ -2112,7 +2112,7 @@
         "name": "雷探ペルボーグ",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-007.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-007.webp",
         "isHorizontal": false
       }
     },
@@ -2142,7 +2142,7 @@
         "name": "雷天拳ウィーギル",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-008.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-008.webp",
         "isHorizontal": false
       }
     },
@@ -2172,7 +2172,7 @@
         "name": "雷坑道",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-009.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-009.webp",
         "isHorizontal": false
       }
     },
@@ -2201,7 +2201,7 @@
         "name": "最奥：大雷山嶺",
         "type": "Nexus",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-010.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-010.webp",
         "isHorizontal": false
       }
     },
@@ -2230,7 +2230,7 @@
         "name": "ファイアピラー",
         "type": "Magic",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-011.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-011.webp",
         "isHorizontal": false
       }
     },
@@ -2259,7 +2259,7 @@
         "name": "リバースサンダー",
         "type": "Magic",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-012.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-012.webp",
         "isHorizontal": false
       }
     },
@@ -2288,7 +2288,7 @@
         "name": "ネストリング",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-013.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-013.webp",
         "isHorizontal": false
       }
     },
@@ -2317,7 +2317,7 @@
         "name": "トリプルサンダー",
         "type": "Magic",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-014.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-014.webp",
         "isHorizontal": false
       }
     },
@@ -2347,7 +2347,7 @@
         "name": "雷噴ペールクアール",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-X01.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-X01.webp",
         "isHorizontal": false
       }
     },
@@ -2377,7 +2377,7 @@
         "name": "雷術ルクーナス",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD05/26RSD05-X02.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-X02.webp",
         "isHorizontal": false
       }
     },
@@ -2408,7 +2408,7 @@
         "name": "ナウサ",
         "type": "Spirit",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-001.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-001.webp",
         "isHorizontal": false
       }
     },
@@ -2436,7 +2436,7 @@
         "name": "ディアトラ",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-002.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-002.webp",
         "isHorizontal": false
       }
     },
@@ -2464,7 +2464,7 @@
         "name": "メルラク",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-003.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-003.webp",
         "isHorizontal": false
       }
     },
@@ -2492,7 +2492,7 @@
         "name": "ライセロス",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-004.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-004.webp",
         "isHorizontal": false
       }
     },
@@ -2521,7 +2521,7 @@
         "name": "スロウス",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-005.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-005.webp",
         "isHorizontal": false
       }
     },
@@ -2551,7 +2551,7 @@
         "name": "スヴァリス",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-006.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-006.webp",
         "isHorizontal": false
       }
     },
@@ -2581,7 +2581,7 @@
         "name": "アルマリト",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-007.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-007.webp",
         "isHorizontal": false
       }
     },
@@ -2611,7 +2611,7 @@
         "name": "樹影フェリオ",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-008.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-008.webp",
         "isHorizontal": false
       }
     },
@@ -2642,7 +2642,7 @@
         "name": "雲霧森林",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-009.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-009.webp",
         "isHorizontal": false
       }
     },
@@ -2671,7 +2671,7 @@
         "name": "最奥：極大樹",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-010.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-010.webp",
         "isHorizontal": false
       }
     },
@@ -2700,7 +2700,7 @@
         "name": "砲森弾林",
         "type": "Nexus",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-011.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-011.webp",
         "isHorizontal": false
       }
     },
@@ -2729,7 +2729,7 @@
         "name": "フィーディングドロー",
         "type": "Magic",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-012.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-012.webp",
         "isHorizontal": false
       }
     },
@@ -2758,7 +2758,7 @@
         "name": "ステムランス",
         "type": "Magic",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-013.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-013.webp",
         "isHorizontal": false
       }
     },
@@ -2788,7 +2788,7 @@
         "name": "フルストマック",
         "type": "Magic",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-014.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-014.webp",
         "isHorizontal": false
       }
     },
@@ -2819,7 +2819,7 @@
         "name": "盾角ギガンテリオン",
         "type": "Spirit",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-X01.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-X01.webp",
         "isHorizontal": false
       }
     },
@@ -2850,7 +2850,7 @@
         "name": "極樹エレファス",
         "type": "Spirit",
         "cost": 10,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/26RSD06/26RSD06-X02.webp",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-X02.webp",
         "isHorizontal": false
       }
     },
