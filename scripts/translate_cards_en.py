@@ -2,14 +2,15 @@
 
 import argparse
 import html
+import io
 import json
 import re
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urljoin
 from urllib.request import Request, urlopen
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageStat
 
 
 ROOT = Path("/Users/balbi/Documents/work/TCGArena/Battle Spirits")
@@ -31,9 +32,7 @@ LEFT_PADDING_BY_TYPE = {
     "X": 145,       # absolute x
 }
 
-FONT_PATH = "/System/Library/Fonts/Helvetica.ttc"
-FONT_INDEX_REGULAR = 0
-FONT_INDEX_BOLD = 1
+FONT_PATH = ROOT / "scripts" / "Elan ITC Std Bold.ttf"
 
 STYLE = {
     "family_bg": (41, 47, 40, 255),   # #292f28
@@ -41,7 +40,7 @@ STYLE = {
     "effect_bg_fallback": (7, 10, 20, 255),
     "text_main": (245, 245, 245, 255),
     "text_family": (236, 236, 236, 255),
-    "stroke": (0, 0, 0, 210),
+    "stroke": (0, 0, 0, 255),
     "keyword_bg": (46, 99, 180, 255),
 }
 
@@ -60,14 +59,48 @@ SOUL_COLOR_MAP = {
     "blue": "Blue",
 }
 
+INLINE_ICON_CACHE = {}
+WIKI_BASE_URL = "https://battle-spirits.fandom.com"
+
 
 def load_font(size: int, bold: bool = False):
-    index = FONT_INDEX_BOLD if bold else FONT_INDEX_REGULAR
-    try:
-        return ImageFont.truetype(FONT_PATH, size, index=index)
-    except Exception:
-        # Fallback if collection index is unavailable on the current system.
-        return ImageFont.truetype(FONT_PATH, size)
+    if not FONT_PATH.exists():
+        raise FileNotFoundError(f"Required font not found: {FONT_PATH}")
+    return ImageFont.truetype(str(FONT_PATH), size)
+
+
+def normalize_effect_symbols(text: str) -> str:
+    if not text:
+        return text
+    # Use ASCII fallback for glyphs that this font may not contain.
+    return (
+        text.replace("▶", ">")
+        .replace("►", ">")
+        .replace("▷", ">")
+    )
+
+
+def draw_text_with_shadow(
+    draw: ImageDraw.ImageDraw,
+    xy,
+    text: str,
+    *,
+    fill,
+    font,
+    anchor=None,
+    stroke_width: int = 0,
+    stroke_fill=None,
+):
+    text_args = {
+        "fill": fill,
+        "font": font,
+    }
+    if anchor is not None:
+        text_args["anchor"] = anchor
+    if stroke_width:
+        text_args["stroke_width"] = stroke_width
+        text_args["stroke_fill"] = stroke_fill if stroke_fill is not None else STYLE["stroke"]
+    draw.text(xy, text, **text_args)
 
 
 def api_wikitext(page_title: str) -> str:
@@ -191,6 +224,7 @@ def wiki_to_text(value: str) -> str:
     v = re.sub(r"[ \t]*\n[ \t]*", "\n", v)
     v = re.sub(r"[ \t]+", " ", v)
     v = re.sub(r"\n+", "\n", v)
+    v = normalize_effect_symbols(v)
     return v.strip()
 
 
@@ -204,6 +238,7 @@ def html_to_text(value: str) -> str:
     v = re.sub(r"[ \t]*\n[ \t]*", "\n", v)
     v = re.sub(r"[ \t]+", " ", v)
     v = re.sub(r"\n+", "\n", v)
+    v = normalize_effect_symbols(v)
     return v.strip()
 
 
@@ -315,6 +350,51 @@ def _foreground_from_style(style: str):
     return _parse_css_color(props.get("color", ""))
 
 
+def _to_int(value, default=0):
+    try:
+        return int(float(value))
+    except (TypeError, ValueError):
+        return default
+
+
+def normalize_icon_src(src: str):
+    if not src:
+        return ""
+    s = src.strip()
+    if not s or s.startswith("data:image"):
+        return ""
+    if s.startswith("//"):
+        return "https:" + s
+    if s.startswith("http://") or s.startswith("https://"):
+        return s
+    return urljoin(WIKI_BASE_URL, s)
+
+
+def load_inline_icon(src: str, target_height: int):
+    norm = normalize_icon_src(src)
+    if not norm:
+        return None
+    h = max(10, int(target_height))
+    key = (norm, h)
+    if key in INLINE_ICON_CACHE:
+        return INLINE_ICON_CACHE[key]
+    try:
+        req = Request(norm, headers={"User-Agent": "Mozilla/5.0"})
+        with urlopen(req, timeout=25) as resp:
+            raw = resp.read()
+        img = Image.open(io.BytesIO(raw)).convert("RGBA")
+        if img.height <= 0:
+            return None
+        w = max(1, int(round(img.width * (h / float(img.height)))))
+        if img.height != h:
+            img = img.resize((w, h), Image.Resampling.LANCZOS)
+        INLINE_ICON_CACHE[key] = img
+        return img
+    except Exception:
+        INLINE_ICON_CACHE[key] = None
+        return None
+
+
 class EffectRunsHTMLParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
@@ -328,6 +408,21 @@ class EffectRunsHTMLParser(HTMLParser):
             return
 
         attr_map = {k.lower(): v for k, v in attrs}
+        if t == "img":
+            src = attr_map.get("data-src") or attr_map.get("src") or ""
+            norm_src = normalize_icon_src(src)
+            if norm_src:
+                self.runs.append(
+                    {
+                        "kind": "image",
+                        "src": norm_src,
+                        "alt": (attr_map.get("alt") or "").strip(),
+                        "width": _to_int(attr_map.get("width"), 0),
+                        "height": _to_int(attr_map.get("height"), 0),
+                    }
+                )
+            return
+
         base = dict(self.stack[-1])
         style = attr_map.get("style", "")
         bg = _background_from_style(style)
@@ -356,6 +451,9 @@ class EffectRunsHTMLParser(HTMLParser):
             base["bold"] = True
         self.stack.append(base)
 
+    def handle_startendtag(self, tag, attrs):
+        self.handle_starttag(tag, attrs)
+
     def handle_endtag(self, _tag):
         if len(self.stack) > 1:
             self.stack.pop()
@@ -363,6 +461,7 @@ class EffectRunsHTMLParser(HTMLParser):
     def handle_data(self, data):
         txt = html.unescape(data or "").replace("\xa0", " ")
         txt = re.sub(r"\s+", " ", txt).strip()
+        txt = normalize_effect_symbols(txt)
         if not txt:
             return
         cur = self.stack[-1]
@@ -377,6 +476,26 @@ class EffectRunsHTMLParser(HTMLParser):
         )
 
 
+def compact_runs(raw_runs):
+    runs = []
+    for r in raw_runs:
+        if r.get("kind") == "break":
+            if runs and runs[-1].get("kind") != "break":
+                runs.append({"kind": "break"})
+            continue
+        if r.get("kind") == "text" and runs and runs[-1].get("kind") == "text":
+            prev = runs[-1]
+            if prev.get("bg") == r.get("bg") and prev.get("fg") == r.get("fg") and prev.get("bold") == r.get("bold"):
+                prev["text"] += " " + r.get("text", "")
+                continue
+        runs.append(r)
+    while runs and runs[0].get("kind") == "break":
+        runs.pop(0)
+    while runs and runs[-1].get("kind") == "break":
+        runs.pop()
+    return runs
+
+
 def extract_effect_runs_from_parsed_html(parsed_html: str, special_kind: str):
     cell = extract_card_effect_cell(parsed_html)
     if not cell:
@@ -384,26 +503,33 @@ def extract_effect_runs_from_parsed_html(parsed_html: str, special_kind: str):
     body = strip_special_block(cell, special_kind)
     parser = EffectRunsHTMLParser()
     parser.feed(body)
+    return compact_runs(parser.runs)
 
-    runs = []
-    for r in parser.runs:
-        if r["kind"] == "break":
-            if runs and runs[-1]["kind"] != "break":
-                runs.append({"kind": "break"})
-            continue
 
-        if runs and runs[-1]["kind"] == "text":
-            prev = runs[-1]
-            if prev.get("bg") == r.get("bg") and prev.get("fg") == r.get("fg") and prev.get("bold") == r.get("bold"):
-                prev["text"] += " " + r["text"]
-                continue
-        runs.append(r)
-
-    while runs and runs[0]["kind"] == "break":
-        runs.pop(0)
-    while runs and runs[-1]["kind"] == "break":
-        runs.pop()
-    return runs
+def extract_special_runs_from_parsed_html(parsed_html: str, kind: str):
+    if not parsed_html:
+        return []
+    cell = extract_card_effect_cell(parsed_html)
+    if not cell:
+        return []
+    if kind == "legacy":
+        pat = (
+            r"Legacy\s*</b>\s*</span>\s*<br\s*/?>\s*"
+            r"<span[^>]*>([\s\S]*?)</span>"
+        )
+    elif kind == "soul_magic":
+        pat = (
+            r"Soul\s*Magic[\s\S]*?</b>\s*</span>\s*<br\s*/?>\s*"
+            r"<span[^>]*>([\s\S]*?)</span>"
+        )
+    else:
+        return []
+    m = re.search(pat, cell, flags=re.IGNORECASE)
+    if not m:
+        return []
+    parser = EffectRunsHTMLParser()
+    parser.feed(m.group(1))
+    return compact_runs(parser.runs)
 
 
 def extract_special_text_from_parsed_html(parsed_html: str, kind: str) -> str:
@@ -464,6 +590,22 @@ def parse_effect(raw_effect: str):
     body = plain
     body = re.sub(r"^[\s:,-]+", "", body)
     return {"level": level, "keyword": keyword, "body": body, "special": special}
+
+
+def parse_families(params: dict, fallback: str):
+    names = []
+    seen = set()
+    for key in sorted(params.keys(), key=lambda k: (0 if k == "family" else 1, k)):
+        if key == "family" or re.fullmatch(r"family\d+", key):
+            raw = wiki_to_text(params.get(key, "")).strip()
+            if not raw:
+                continue
+            if raw not in seen:
+                seen.add(raw)
+                names.append(raw)
+    if not names:
+        return fallback
+    return " / ".join(names)
 
 
 def fit_font(draw: ImageDraw.ImageDraw, text: str, max_width: int, start_size: int, stroke=1):
@@ -669,7 +811,34 @@ def runs_to_tokens(effect_runs):
             if tokens and tokens[-1]["kind"] != "break":
                 tokens.append({"kind": "break"})
             continue
-        for word in run.get("text", "").split():
+        if run.get("kind") == "image":
+            tokens.append(
+                {
+                    "kind": "image",
+                    "src": run.get("src"),
+                    "img_h": max(10, _to_int(run.get("height"), 0)) or 0,
+                    "breakable": False,
+                }
+            )
+            continue
+        run_text = re.sub(r"\s+", " ", (run.get("text") or "")).strip()
+        if not run_text:
+            continue
+        # Keep colored-background segments as one token so the chip renders/wraps as a unit.
+        if run.get("bg") is not None:
+            tokens.append(
+                {
+                    "kind": "chip",
+                    "text": run_text,
+                    "fg": run.get("fg"),
+                    "bg": run.get("bg"),
+                    "bold": bool(run.get("bold")),
+                    "breakable": False,
+                }
+            )
+            continue
+
+        for word in run_text.split():
             tokens.append(
                 {
                     "kind": "word",
@@ -677,6 +846,7 @@ def runs_to_tokens(effect_runs):
                     "fg": run.get("fg"),
                     "bg": run.get("bg"),
                     "bold": bool(run.get("bold")),
+                    "breakable": True,
                 }
             )
     while tokens and tokens[0]["kind"] == "break":
@@ -690,7 +860,24 @@ def _token_font(token, font_regular, font_bold):
     return font_bold if token.get("bold") else font_regular
 
 
+def _token_image_height(token, font_regular, font_bold):
+    base_h = max(font_regular.size, font_bold.size)
+    hinted = _to_int(token.get("img_h"), 0)
+    if hinted <= 0:
+        hinted = max(12, base_h - 2)
+    return max(10, min(48, hinted))
+
+
+def _token_image(token, font_regular, font_bold):
+    return load_inline_icon(token.get("src", ""), _token_image_height(token, font_regular, font_bold))
+
+
 def _line_token_width(draw: ImageDraw.ImageDraw, token, font_regular, font_bold, stroke=1):
+    if token.get("kind") == "image":
+        icon = _token_image(token, font_regular, font_bold)
+        if icon is not None:
+            return icon.width
+        return _token_image_height(token, font_regular, font_bold)
     font = _token_font(token, font_regular, font_bold)
     return _text_width(draw, token["text"], font, stroke=stroke)
 
@@ -705,6 +892,11 @@ def _line_width(draw: ImageDraw.ImageDraw, line_tokens, font_regular, font_bold,
 
 
 def _split_styled_token(draw: ImageDraw.ImageDraw, token, font_regular, font_bold, max_width: int, stroke=1):
+    if not token.get("breakable", True):
+        font = _token_font(token, font_regular, font_bold)
+        if _text_width(draw, token["text"], font, stroke=stroke) <= max_width:
+            return token, None
+        return None, token
     font = _token_font(token, font_regular, font_bold)
     part, rem = _split_long_token(draw, token["text"], font, max_width, stroke=stroke)
     if not part:
@@ -860,7 +1052,33 @@ def fit_styled_tokens_flow(
     return best
 
 
+def fit_inline_tokens_one_line(
+    draw: ImageDraw.ImageDraw,
+    tokens,
+    max_width: int,
+    start_size: int,
+    min_size: int = 9,
+    stroke: int = 1,
+):
+    size = start_size
+    best = None
+    while size >= min_size:
+        font_regular = load_font(size, bold=False)
+        font_bold = load_font(size, bold=True)
+        space_w = max(
+            _text_width(draw, " ", font_regular, stroke=stroke),
+            _text_width(draw, " ", font_bold, stroke=stroke),
+        )
+        width = _line_width(draw, tokens, font_regular, font_bold, space_w, stroke=stroke)
+        if width <= max_width:
+            return font_regular, font_bold, width
+        best = (font_regular, font_bold, width)
+        size -= 1
+    return best
+
+
 def draw_styled_token_lines(
+    img: Image.Image,
     draw: ImageDraw.ImageDraw,
     lines,
     font_regular,
@@ -877,6 +1095,20 @@ def draw_styled_token_lines(
     for y, tokens in lines:
         x = start_x
         for i, tok in enumerate(tokens):
+            if tok.get("kind") == "image":
+                icon = _token_image(tok, font_regular, font_bold)
+                if icon is not None:
+                    ix = int(x)
+                    iy = int(y + max(0, (line_h - icon.height) // 2))
+                    img.paste(icon, (ix, iy), icon)
+                    w = icon.width
+                else:
+                    w = _token_image_height(tok, font_regular, font_bold)
+                x += w
+                if i < len(tokens) - 1:
+                    x += space_w
+                continue
+
             txt = tok["text"]
             fg = tok.get("fg") or default_fg
             bg = tok.get("bg")
@@ -888,7 +1120,8 @@ def draw_styled_token_lines(
                     radius=3,
                     fill=bg,
                 )
-            draw.text(
+            draw_text_with_shadow(
+                draw,
                 (x, y),
                 txt,
                 fill=fg,
@@ -940,6 +1173,65 @@ def sample_median_color(img: Image.Image, box, fallback):
     return (rs[m], gs[m], bs[m], 255)
 
 
+def _clamp_box(box, width, height):
+    x1, y1, x2, y2 = box
+    x1 = max(0, min(width, int(x1)))
+    y1 = max(0, min(height, int(y1)))
+    x2 = max(0, min(width, int(x2)))
+    y2 = max(0, min(height, int(y2)))
+    if x2 <= x1 or y2 <= y1:
+        return None
+    return (x1, y1, x2, y2)
+
+
+def blur_detected_text_in_box(img: Image.Image, box, blur_radius=4.5, force=False):
+    clamped = _clamp_box(box, img.width, img.height)
+    if not clamped:
+        return 0.0
+    x1, y1, x2, y2 = clamped
+    crop = img.crop((x1, y1, x2, y2)).convert("RGBA")
+    if force:
+        blurred = crop.filter(ImageFilter.GaussianBlur(blur_radius))
+        img.paste(blurred, (x1, y1), blurred)
+        return 1.0
+    gray = crop.convert("L")
+
+    # Text-like detector: strong edges with high contrast foreground pixels.
+    edge = gray.filter(ImageFilter.FIND_EDGES).point(lambda p: 255 if p > 80 else 0, mode="L")
+    contrast = gray.point(lambda p: 255 if (p < 70 or p > 190) else 0, mode="L")
+    mask = ImageChops.multiply(edge, contrast)
+    mask = mask.filter(ImageFilter.MinFilter(3)).filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.MaxFilter(3))
+    mask = mask.point(lambda p: 210 if p > 220 else 0, mode="L")
+
+    coverage = 0.0
+    if mask.width > 0 and mask.height > 0:
+        coverage = ImageStat.Stat(mask).sum[0] / (255.0 * mask.width * mask.height)
+
+    # Skip near-empty detection.
+    if coverage < 0.003:
+        return coverage
+
+    blurred = crop.filter(ImageFilter.GaussianBlur(blur_radius))
+    # For dense text regions, apply even blur across the zone to avoid blotchy artifacts.
+    if coverage >= 0.02:
+        blurred = crop.filter(ImageFilter.GaussianBlur(max(blur_radius, 7.5)))
+        mask = Image.new("L", (x2 - x1, y2 - y1), color=255)
+    merged = Image.composite(blurred, crop, mask)
+    img.paste(merged, (x1, y1), merged)
+    return coverage
+
+
+def darken_box(img: Image.Image, box, amount=0.20):
+    clamped = _clamp_box(box, img.width, img.height)
+    if not clamped:
+        return
+    x1, y1, x2, y2 = clamped
+    crop = img.crop((x1, y1, x2, y2)).convert("RGBA")
+    # amount=0.20 -> keep 80% brightness
+    dark = ImageEnhance.Brightness(crop).enhance(max(0.0, 1.0 - float(amount)))
+    img.paste(dark, (x1, y1), dark)
+
+
 def effect_box_for_card(card_id: str, card_type: str):
     fx_x1, fx_y1, fx_x2, fx_y2 = CARD_EFFECT_BOUNDS
 
@@ -949,20 +1241,20 @@ def effect_box_for_card(card_id: str, card_type: str):
     return (fx_x1 + local_pad, fx_y1, fx_x2, fx_y2)
 
 
-def cleanup_effect_bg(draw: ImageDraw.ImageDraw, ex1, text_top, ex2, ey2, fill):
-    # Opaque cleanup where translated effect text is drawn.
-    # Use split geometry so we can continue below symbol zone on the left side.
+def effect_cleanup_regions(ex1, text_top, ex2, ey2):
+    # Regions where effect JP text should be blurred before EN render.
     strip_top = text_top
     sym_x1, sym_y1, sym_x2, sym_y2 = CORE_SYMBOL_BOUNDS
+    boxes = []
     top_end = min(sym_y1 - 6, ey2 - 6)
     if top_end > strip_top:
-        draw.rounded_rectangle((ex1, strip_top, ex2, top_end), radius=5, fill=fill)
+        boxes.append((ex1, strip_top, ex2, top_end))
 
     lower_start = max(strip_top, sym_y1 - 6)
     lower_end = ey2 - 6
     if lower_end > lower_start:
-        draw.rounded_rectangle((ex1, lower_start, sym_x1 - 8, lower_end), radius=5, fill=fill)
-    return strip_top, ey2 - 6
+        boxes.append((ex1, lower_start, sym_x1 - 8, lower_end))
+    return boxes, strip_top, ey2 - 6
 
 
 def load_soul_core_icon(size=22):
@@ -978,97 +1270,133 @@ def load_soul_core_icon(size=22):
 def render_card_translation(src_image: Path, out_image: Path, card_data: dict):
     img = Image.open(src_image).convert("RGBA")
     draw = ImageDraw.Draw(img)
+    stroke_main = 2
+    stroke_heavy = 4
+    is_x_card = "-X" in card_data.get("card_id", "")
 
-    # Name/family cleanup
+    # Name/family cleanup via text-aware blur.
     family_box = BOUNDS["Families"]
     name_box = BOUNDS["Name"]
-    draw.rounded_rectangle(family_box, radius=4, fill=STYLE["family_bg"])
-    draw.rounded_rectangle(name_box, radius=6, fill=STYLE["name_bg"])
+    blur_detected_text_in_box(img, family_box, blur_radius=5.0, force=True)
+    blur_detected_text_in_box(img, name_box, blur_radius=5.8, force=True)
 
-    # Effects cleanup (tone sampled from source image)
+    # Effects cleanup geometry.
     effect_box = effect_box_for_card(
         card_data["card_id"],
         card_data["type"],
     )
     ex1, ey1, ex2, ey2 = effect_box
-    sample_box = (
-        ex1 + 20,
-        min(ey1 + 180, ey2 - 80),
-        min(ex2 - 20, CORE_SYMBOL_BOUNDS[0] - 12),
-        min(ey2 - 20, CORE_SYMBOL_BOUNDS[1] - 20),
-    )
-    effect_bg = sample_median_color(img, sample_box, STYLE["effect_bg_fallback"])
 
     # Optional special region (Legacy / Soul Magic) is fixed bounds.
     special = card_data["effect"].get("special")
     text_top = ey1 + 8
     if special:
         sx1, sy1, sx2, sy2 = SPECIAL_KEYWORD_BOUNDS
-        draw.rounded_rectangle((sx1, sy1, sx2, sy2), radius=5, fill=effect_bg)
+        blur_detected_text_in_box(img, (sx1, sy1, sx2, sy2), blur_radius=5.8, force=True)
+        if not is_x_card:
+            darken_box(img, (sx1, sy1, sx2, sy2), amount=0.22)
         special_text = card_data.get("special_text", "").strip()
+        special_runs = card_data.get("special_runs") or []
         if special["kind"] == "soul_magic":
-            soul_text = special_text or (
-                f"If you control any {special.get('color', 'Red')} symbol, "
-                "you can use it with just the Stan Soul Core."
-            )
-            icon = load_soul_core_icon(22)
-            icon_w = icon.width if icon else 0
-            text_max_w = (sx2 - sx1 - 16 - icon_w - (8 if icon else 0))
-            special_font = fit_font(draw, soul_text, max_width=text_max_w, start_size=17, stroke=1)
-            draw.text(
-                (sx1 + 8, sy1 + (sy2 - sy1) // 2),
-                soul_text,
-                fill=STYLE["text_main"],
-                font=special_font,
-                anchor="lm",
-                stroke_width=1,
-                stroke_fill=STYLE["stroke"],
-            )
-            if icon:
-                ix = sx2 - 8 - icon.width
-                iy = sy1 + (sy2 - sy1 - icon.height) // 2
-                img.paste(icon, (ix, iy), icon)
+            rendered = False
+            if special_runs:
+                inline_tokens = [t for t in runs_to_tokens(special_runs) if t.get("kind") != "break"]
+                if inline_tokens:
+                    fit_inline = fit_inline_tokens_one_line(
+                        draw,
+                        tokens=inline_tokens,
+                        max_width=(sx2 - sx1 - 16),
+                        start_size=22,
+                        min_size=9,
+                        stroke=stroke_main,
+                    )
+                    if fit_inline is not None:
+                        inline_font_regular, inline_font_bold, inline_w = fit_inline
+                        line_h = max(inline_font_regular.size, inline_font_bold.size)
+                        line_y = sy1 + max(0, (sy2 - sy1 - line_h) // 2)
+                        line_x = sx1 + 8
+                        draw_styled_token_lines(
+                            img,
+                            draw,
+                            lines=[(line_y, inline_tokens)],
+                            font_regular=inline_font_regular,
+                            font_bold=inline_font_bold,
+                            start_x=line_x,
+                            default_fg=STYLE["text_main"],
+                            stroke=stroke_main,
+                        )
+                        rendered = True
+            if not rendered:
+                soul_text = special_text or (
+                    f"If you control any {special.get('color', 'Red')} symbol, "
+                    "you can use it with just the Stan Soul Core."
+                )
+                icon = load_soul_core_icon(22)
+                icon_w = icon.width if icon else 0
+                text_max_w = (sx2 - sx1 - 16 - icon_w - (8 if icon else 0))
+                special_font = fit_font(draw, soul_text, max_width=text_max_w, start_size=22, stroke=stroke_main)
+                draw_text_with_shadow(
+                    draw,
+                    (sx1 + 8, sy1 + (sy2 - sy1) // 2),
+                    soul_text,
+                    fill=STYLE["text_main"],
+                    font=special_font,
+                    anchor="lm",
+                    stroke_width=stroke_main,
+                    stroke_fill=STYLE["stroke"],
+                )
+                if icon:
+                    ix = sx2 - 8 - icon.width
+                    iy = sy1 + (sy2 - sy1 - icon.height) // 2
+                    img.paste(icon, (ix, iy), icon)
         elif special["kind"] == "legacy":
             legacy_text = special_text or "Legacy"
-            legacy_font = fit_font(draw, legacy_text, max_width=(sx2 - sx1 - 16), start_size=17, stroke=1)
-            draw.text(
+            legacy_font = fit_font(draw, legacy_text, max_width=(sx2 - sx1 - 16), start_size=22, stroke=stroke_main)
+            draw_text_with_shadow(
+                draw,
                 ((sx1 + sx2) // 2, sy1 + (sy2 - sy1) // 2),
                 legacy_text,
                 fill=STYLE["text_main"],
                 font=legacy_font,
                 anchor="mm",
-                stroke_width=1,
+                stroke_width=stroke_main,
                 stroke_fill=STYLE["stroke"],
             )
         text_top = sy2 + 6
 
-    strip_top, strip_bottom = cleanup_effect_bg(draw, ex1, text_top, ex2, ey2, effect_bg)
+    effect_boxes, strip_top, strip_bottom = effect_cleanup_regions(ex1, text_top, ex2, ey2)
+    for box in effect_boxes:
+        blur_detected_text_in_box(img, box, blur_radius=6.4, force=True)
+        if not is_x_card:
+            darken_box(img, box, amount=0.22)
 
     # Family
     family_font = fit_font(
-        draw, card_data["family"], max_width=(family_box[2] - family_box[0] - 16), start_size=28, stroke=1
+        draw, card_data["family"], max_width=(family_box[2] - family_box[0] - 16), start_size=25, stroke=stroke_main
     )
-    draw.text(
+    draw_text_with_shadow(
+        draw,
         ((family_box[0] + family_box[2]) // 2, (family_box[1] + family_box[3]) // 2),
         card_data["family"],
         fill=STYLE["text_family"],
         font=family_font,
         anchor="mm",
-        stroke_width=1,
-        stroke_fill=(0, 0, 0, 190),
+        stroke_width=stroke_main,
+        stroke_fill=STYLE["stroke"],
     )
 
     # Name
     name_font = fit_font(
-        draw, card_data["name"], max_width=(name_box[2] - name_box[0] - 24), start_size=46, stroke=2
+        draw, card_data["name"], max_width=(name_box[2] - name_box[0] - 24), start_size=30, stroke=stroke_heavy
     )
-    draw.text(
+    draw_text_with_shadow(
+        draw,
         ((name_box[0] + name_box[2]) // 2, (name_box[1] + name_box[3]) // 2 + 3),
         card_data["name"],
         fill=STYLE["text_main"],
         font=name_font,
         anchor="mm",
-        stroke_width=2,
+        stroke_width=stroke_heavy,
         stroke_fill=STYLE["stroke"],
     )
 
@@ -1098,59 +1426,62 @@ def render_card_translation(src_image: Path, out_image: Path, card_data: dict):
             lower_right_x=text_right_lower,
             lower_start_y=symbol_top,
             max_bottom_y=body_bottom,
-            start_size=26,
+            start_size=22,
             min_size=9,
-            stroke=1,
-            line_spacing=5,
+            stroke=stroke_main,
+            line_spacing=0,
             break_gap=4,
         )
         if fit_rich is not None:
             rich_font_regular, rich_font_bold, rich_lines = fit_rich
             draw_styled_token_lines(
+                img,
                 draw,
                 lines=rich_lines,
                 font_regular=rich_font_regular,
                 font_bold=rich_font_bold,
                 start_x=text_start_x,
                 default_fg=STYLE["text_main"],
-                stroke=1,
+                stroke=stroke_main,
             )
         else:
             # Fallback to plain text rendering if styled layout cannot fit.
             rich_runs = []
 
     if not rich_runs:
-        lv_font = fit_font(draw, level or "[LV]", max_width=84, start_size=24, stroke=1)
+        lv_font = fit_font(draw, level or "[LV]", max_width=84, start_size=22, stroke=stroke_main)
         if level:
-            draw.text(
+            draw_text_with_shadow(
+                draw,
                 (header_x, header_y),
                 level,
                 fill=STYLE["text_main"],
                 font=lv_font,
-                stroke_width=1,
+                stroke_width=stroke_main,
                 stroke_fill=STYLE["stroke"],
             )
-            level_box = draw.textbbox((header_x, header_y), level, font=lv_font, stroke_width=1)
+            level_box = draw.textbbox((header_x, header_y), level, font=lv_font, stroke_width=stroke_main)
         else:
             level_box = (header_x, header_y, header_x, header_y)
 
         if keyword:
-            kw_font = fit_font(draw, keyword, max_width=230, start_size=23, stroke=1)
+            kw_font = fit_font(draw, keyword, max_width=230, start_size=22, stroke=stroke_main)
             kw_x = level_box[2] + 10
             kw_y = header_y
-            kw_box = draw.textbbox((kw_x, kw_y), keyword, font=kw_font, stroke_width=1)
+            kw_box = draw.textbbox((kw_x, kw_y), keyword, font=kw_font, stroke_width=stroke_main)
             draw.rounded_rectangle(
                 (kw_box[0] - 6, kw_box[1] - 3, kw_box[2] + 6, kw_box[3] + 3),
                 radius=5,
                 fill=STYLE["keyword_bg"],
             )
-            draw.text(
+            draw_text_with_shadow(
+                draw,
                 (kw_x, kw_y),
                 keyword,
                 fill=STYLE["text_main"],
                 font=kw_font,
-                stroke_width=1,
-                stroke_fill=(0, 0, 0, 175),
+                stroke_width=stroke_main,
+                stroke_fill=STYLE["stroke"],
             )
 
         fit_res = fit_flow_text(
@@ -1162,10 +1493,10 @@ def render_card_translation(src_image: Path, out_image: Path, card_data: dict):
             lower_right_x=text_right_lower,
             lower_start_y=symbol_top,
             max_bottom_y=body_bottom,
-            start_size=26,
+            start_size=22,
             min_size=9,
-            stroke=1,
-            line_spacing=5,
+            stroke=stroke_main,
+            line_spacing=0,
             break_gap=4,
         )
         if fit_res is None:
@@ -1176,12 +1507,13 @@ def render_card_translation(src_image: Path, out_image: Path, card_data: dict):
         for text_line, y in lines:
             if not text_line:
                 continue
-            draw.text(
+            draw_text_with_shadow(
+                draw,
                 (text_start_x, y),
                 text_line,
                 fill=STYLE["text_main"],
                 font=body_font,
-                stroke_width=1,
+                stroke_width=stroke_main,
                 stroke_fill=STYLE["stroke"],
             )
 
@@ -1193,7 +1525,7 @@ def build_card_data(card_id: str, set_row: dict, wikitext: str):
     params = parse_template_params(wikitext)
     page_title = set_row["page_title"]
     card_type = wiki_to_text(params.get("type", set_row.get("type", "Spirit"))).strip() or "Spirit"
-    family = wiki_to_text(params.get("family", "")).strip() or card_type
+    family = parse_families(params, fallback=card_type)
 
     effect_raw = params.get("effect", "")
     effect = parse_effect(effect_raw)
@@ -1214,6 +1546,7 @@ def build_card_data(card_id: str, set_row: dict, wikitext: str):
         effect["special"] = {"kind": "legacy"}
 
     special_text = ""
+    special_runs = []
     parsed_html = ""
     special_kind = (effect.get("special") or {}).get("kind")
     try:
@@ -1226,6 +1559,10 @@ def build_card_data(card_id: str, set_row: dict, wikitext: str):
             special_text = extract_special_text_from_parsed_html(parsed_html, special_kind)
         except Exception:
             special_text = ""
+        try:
+            special_runs = extract_special_runs_from_parsed_html(parsed_html, special_kind)
+        except Exception:
+            special_runs = []
     effect_runs = extract_effect_runs_from_parsed_html(parsed_html, special_kind) if parsed_html else []
 
     return {
@@ -1237,6 +1574,7 @@ def build_card_data(card_id: str, set_row: dict, wikitext: str):
         "has_legacy": has_legacy,
         "has_soul_magic": has_soul,
         "special_text": special_text,
+        "special_runs": special_runs,
         "effect_runs": effect_runs,
     }
 

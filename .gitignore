@@ -2,3 +2,5 @@
 *.psd
 .codex/
 .codex-*
+__pycache__
+*.ttf
