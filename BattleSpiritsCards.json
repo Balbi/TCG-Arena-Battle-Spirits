@@ -50,14 +50,14 @@
     "id": "26RSD01-001",
     "face": {
       "front": {
-        "name": "ムーシャッコ",
+        "name": "Mushakko",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-001.webp",
         "isHorizontal": false
       }
     },
-    "name": "ムーシャッコ",
+    "name": "Mushakko",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -67,7 +67,7 @@
       "Red"
     ],
     "Family": [
-      "風牙"
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -78,14 +78,14 @@
     "id": "26RSD01-002",
     "face": {
       "front": {
-        "name": "ゲン＝ボー",
+        "name": "Gen-Bor",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-002.webp",
         "isHorizontal": false
       }
     },
-    "name": "ゲン＝ボー",
+    "name": "Gen-Bor",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -96,7 +96,8 @@
       "Red"
     ],
     "Family": [
-      "紅雲・風牙"
+      "Red Cloud",
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -107,14 +108,14 @@
     "id": "26RSD01-003",
     "face": {
       "front": {
-        "name": "ロワミーク",
+        "name": "Rowamiku",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-003.webp",
         "isHorizontal": false
       }
     },
-    "name": "ロワミーク",
+    "name": "Rowamiku",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -125,7 +126,8 @@
       "Red"
     ],
     "Family": [
-      "紅雲・風牙"
+      "Red Cloud",
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -136,14 +138,14 @@
     "id": "26RSD01-004",
     "face": {
       "front": {
-        "name": "ハーリア",
+        "name": "Haarier",
         "type": "Spirit",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-004.webp",
         "isHorizontal": false
       }
     },
-    "name": "ハーリア",
+    "name": "Haarier",
     "type": "Spirit",
     "cost": 4,
     "Color": [
@@ -154,7 +156,7 @@
       "Red"
     ],
     "Family": [
-      "風牙"
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -165,14 +167,14 @@
     "id": "26RSD01-005",
     "face": {
       "front": {
-        "name": "グン＝ガタ",
+        "name": "Goon-Gata",
         "type": "Spirit",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-005.webp",
         "isHorizontal": false
       }
     },
-    "name": "グン＝ガタ",
+    "name": "Goon-Gata",
     "type": "Spirit",
     "cost": 4,
     "Color": [
@@ -184,7 +186,7 @@
       "Red"
     ],
     "Family": [
-      "紅雲・風牙"
+      "Red Cloud","Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -195,14 +197,14 @@
     "id": "26RSD01-006",
     "face": {
       "front": {
-        "name": "キュペル",
+        "name": "Cupell",
         "type": "Spirit",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-006.webp",
         "isHorizontal": false
       }
     },
-    "name": "キュペル",
+    "name": "Cupell",
     "type": "Spirit",
     "cost": 5,
     "Color": [
@@ -213,7 +215,7 @@
       "Red"
     ],
     "Family": [
-      "風牙"
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -224,14 +226,14 @@
     "id": "26RSD01-007",
     "face": {
       "front": {
-        "name": "グライファー",
+        "name": "Griffar",
         "type": "Spirit",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-007.webp",
         "isHorizontal": false
       }
     },
-    "name": "グライファー",
+    "name": "Griffar",
     "type": "Spirit",
     "cost": 5,
     "Color": [
@@ -243,7 +245,7 @@
       "Red"
     ],
     "Family": [
-      "風牙"
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -254,14 +256,14 @@
     "id": "26RSD01-008",
     "face": {
       "front": {
-        "name": "セルタリウス",
+        "name": "Sertarius",
         "type": "Spirit",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-008.webp",
         "isHorizontal": false
       }
     },
-    "name": "セルタリウス",
+    "name": "Sertarius",
     "type": "Spirit",
     "cost": 6,
     "Color": [
@@ -273,7 +275,7 @@
       "Red"
     ],
     "Family": [
-      "風牙"
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -284,14 +286,14 @@
     "id": "26RSD01-009",
     "face": {
       "front": {
-        "name": "飛傑レウファルス",
+        "name": "The FlyingAce Reufalx",
         "type": "Spirit",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-009.webp",
         "isHorizontal": false
       }
     },
-    "name": "飛傑レウファルス",
+    "name": "The FlyingAce Reufalx",
     "type": "Spirit",
     "cost": 6,
     "Color": [
@@ -303,7 +305,7 @@
       "Red"
     ],
     "Family": [
-      "紅雲・風牙"
+      "Red Cloud","Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -314,14 +316,14 @@
     "id": "26RSD01-010",
     "face": {
       "front": {
-        "name": "最奥：風牙岩",
+        "name": "Utmost Depth: The Windfang Crag",
         "type": "Nexus",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-010.webp",
         "isHorizontal": false
       }
     },
-    "name": "最奥：風牙岩",
+    "name": "Utmost Depth: The Windfang Crag",
     "type": "Nexus",
     "cost": 3,
     "Color": [
@@ -332,7 +334,7 @@
       "Red"
     ],
     "Family": [
-      "風牙"
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -343,14 +345,14 @@
     "id": "26RSD01-011",
     "face": {
       "front": {
-        "name": "浮遊岩域",
+        "name": "The Floating Stone Realm",
         "type": "Nexus",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-011.webp",
         "isHorizontal": false
       }
     },
-    "name": "浮遊岩域",
+    "name": "The Floating Stone Realm",
     "type": "Nexus",
     "cost": 4,
     "Color": [
@@ -361,7 +363,7 @@
       "Red"
     ],
     "Family": [
-      "風牙"
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -372,14 +374,14 @@
     "id": "26RSD01-012",
     "face": {
       "front": {
-        "name": "ブレイククロー",
+        "name": "Break Claw",
         "type": "Magic",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-012.webp",
         "isHorizontal": false
       }
     },
-    "name": "ブレイククロー",
+    "name": "Break Claw",
     "type": "Magic",
     "cost": 3,
     "Color": [
@@ -390,7 +392,7 @@
       "Red"
     ],
     "Family": [
-      "風牙"
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -401,14 +403,14 @@
     "id": "26RSD01-013",
     "face": {
       "front": {
-        "name": "オフェリングドロー",
+        "name": "Offering Draw",
         "type": "Magic",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-013.webp",
         "isHorizontal": false
       }
     },
-    "name": "オフェリングドロー",
+    "name": "Offering Draw",
     "type": "Magic",
     "cost": 4,
     "Color": [
@@ -419,7 +421,7 @@
       "Red"
     ],
     "Family": [
-      "風牙"
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -430,14 +432,14 @@
     "id": "26RSD01-014",
     "face": {
       "front": {
-        "name": "フレイムハリケーン",
+        "name": "Flame Hurricane",
         "type": "Magic",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-014.webp",
         "isHorizontal": false
       }
     },
-    "name": "フレイムハリケーン",
+    "name": "Flame Hurricane",
     "type": "Magic",
     "cost": 6,
     "Color": [
@@ -449,7 +451,7 @@
       "Red"
     ],
     "Family": [
-      "風牙"
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -460,14 +462,14 @@
     "id": "26RSD01-X01",
     "face": {
       "front": {
-        "name": "飛赫レンシス",
+        "name": "The FlyingScarlet Rensis",
         "type": "Spirit",
         "cost": 7,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-X01.webp",
         "isHorizontal": false
       }
     },
-    "name": "飛赫レンシス",
+    "name": "The FlyingScarlet Rensis",
     "type": "Spirit",
     "cost": 7,
     "Color": [
@@ -480,7 +482,7 @@
       "Red"
     ],
     "Family": [
-      "風牙"
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -491,14 +493,14 @@
     "id": "26RSD01-X02",
     "face": {
       "front": {
-        "name": "飛剛アクライ",
+        "name": "The FlyingIron Akurai",
         "type": "Spirit",
         "cost": 7,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-X02.webp",
         "isHorizontal": false
       }
     },
-    "name": "飛剛アクライ",
+    "name": "The FlyingIron Akurai",
     "type": "Spirit",
     "cost": 7,
     "Color": [
@@ -511,7 +513,7 @@
       "Red"
     ],
     "Family": [
-      "風牙"
+      "Windfang"
     ],
     "Set": [
       "26RSD01"
@@ -522,14 +524,14 @@
     "id": "26RSD02-001",
     "face": {
       "front": {
-        "name": "スクルース",
+        "name": "Sclouse",
         "type": "Spirit",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-001.webp",
         "isHorizontal": false
       }
     },
-    "name": "スクルース",
+    "name": "Sclouse",
     "type": "Spirit",
     "cost": 2,
     "Color": [
@@ -539,7 +541,8 @@
       "Purple"
     ],
     "Family": [
-      "暗紫・血醒"
+      "Dark Puce",
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -550,14 +553,14 @@
     "id": "26RSD02-002",
     "face": {
       "front": {
-        "name": "フィラルバ",
+        "name": "Firalba",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-002.webp",
         "isHorizontal": false
       }
     },
-    "name": "フィラルバ",
+    "name": "Firalba",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -567,7 +570,7 @@
       "Purple"
     ],
     "Family": [
-      "血醒"
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -578,14 +581,14 @@
     "id": "26RSD02-003",
     "face": {
       "front": {
-        "name": "メディチ・キャタリー",
+        "name": "Medici-Cattery",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-003.webp",
         "isHorizontal": false
       }
     },
-    "name": "メディチ・キャタリー",
+    "name": "Medici-Cattery",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -596,7 +599,7 @@
       "Purple"
     ],
     "Family": [
-      "暗紫・血醒"
+      "Dark Puce","Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -607,14 +610,14 @@
     "id": "26RSD02-004",
     "face": {
       "front": {
-        "name": "ガルシス",
+        "name": "Garsis",
         "type": "Spirit",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-004.webp",
         "isHorizontal": false
       }
     },
-    "name": "ガルシス",
+    "name": "Garsis",
     "type": "Spirit",
     "cost": 4,
     "Color": [
@@ -625,7 +628,7 @@
       "Purple"
     ],
     "Family": [
-      "血醒"
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -636,14 +639,14 @@
     "id": "26RSD02-005",
     "face": {
       "front": {
-        "name": "ブギールガー",
+        "name": "Boogilugar",
         "type": "Spirit",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-005.webp",
         "isHorizontal": false
       }
     },
-    "name": "ブギールガー",
+    "name": "Boogilugar",
     "type": "Spirit",
     "cost": 4,
     "Color": [
@@ -655,7 +658,7 @@
       "Purple"
     ],
     "Family": [
-      "暗紫・血醒"
+      "Dark Puce","Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -666,14 +669,14 @@
     "id": "26RSD02-006",
     "face": {
       "front": {
-        "name": "ラム・トーカー",
+        "name": "Ram Toker",
         "type": "Spirit",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-006.webp",
         "isHorizontal": false
       }
     },
-    "name": "ラム・トーカー",
+    "name": "Ram Toker",
     "type": "Spirit",
     "cost": 5,
     "Color": [
@@ -684,7 +687,7 @@
       "Purple"
     ],
     "Family": [
-      "暗紫・血醒"
+      "Dark Puce","Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -695,14 +698,14 @@
     "id": "26RSD02-007",
     "face": {
       "front": {
-        "name": "ラミーカ女史",
+        "name": "Lady Lamica",
         "type": "Spirit",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-007.webp",
         "isHorizontal": false
       }
     },
-    "name": "ラミーカ女史",
+    "name": "Lady Lamica",
     "type": "Spirit",
     "cost": 5,
     "Color": [
@@ -714,7 +717,7 @@
       "Purple"
     ],
     "Family": [
-      "血醒"
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -725,14 +728,14 @@
     "id": "26RSD02-008",
     "face": {
       "front": {
-        "name": "オーグル",
+        "name": "Ogrul",
         "type": "Spirit",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-008.webp",
         "isHorizontal": false
       }
     },
-    "name": "オーグル",
+    "name": "Ogrul",
     "type": "Spirit",
     "cost": 6,
     "Color": [
@@ -744,7 +747,7 @@
       "Purple"
     ],
     "Family": [
-      "血醒"
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -755,14 +758,14 @@
     "id": "26RSD02-009",
     "face": {
       "front": {
-        "name": "最奥：血醒連峰",
+        "name": "Utmost Depth: The Bloodrouse Mountain Range",
         "type": "Nexus",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-009.webp",
         "isHorizontal": false
       }
     },
-    "name": "最奥：血醒連峰",
+    "name": "Utmost Depth: The Bloodrouse Mountain Range",
     "type": "Nexus",
     "cost": 3,
     "Color": [
@@ -773,7 +776,7 @@
       "Purple"
     ],
     "Family": [
-      "血醒"
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -784,14 +787,14 @@
     "id": "26RSD02-010",
     "face": {
       "front": {
-        "name": "紫枯れ領",
+        "name": "The Violet Witherlands",
         "type": "Nexus",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-010.webp",
         "isHorizontal": false
       }
     },
-    "name": "紫枯れ領",
+    "name": "The Violet Witherlands",
     "type": "Nexus",
     "cost": 4,
     "Color": [
@@ -802,7 +805,7 @@
       "Purple"
     ],
     "Family": [
-      "血醒"
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -813,14 +816,14 @@
     "id": "26RSD02-011",
     "face": {
       "front": {
-        "name": "ダークハング",
+        "name": "Dark Hang",
         "type": "Magic",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-011.webp",
         "isHorizontal": false
       }
     },
-    "name": "ダークハング",
+    "name": "Dark Hang",
     "type": "Magic",
     "cost": 4,
     "Color": [
@@ -831,7 +834,7 @@
       "Purple"
     ],
     "Family": [
-      "血醒"
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -842,14 +845,14 @@
     "id": "26RSD02-012",
     "face": {
       "front": {
-        "name": "ブラッドシップ",
+        "name": "Blood Sip",
         "type": "Magic",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-012.webp",
         "isHorizontal": false
       }
     },
-    "name": "ブラッドシップ",
+    "name": "Blood Sip",
     "type": "Magic",
     "cost": 4,
     "Color": [
@@ -860,7 +863,7 @@
       "Purple"
     ],
     "Family": [
-      "血醒"
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -871,14 +874,14 @@
     "id": "26RSD02-013",
     "face": {
       "front": {
-        "name": "レイニーポイズン",
+        "name": "Rainy Poison",
         "type": "Magic",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-013.webp",
         "isHorizontal": false
       }
     },
-    "name": "レイニーポイズン",
+    "name": "Rainy Poison",
     "type": "Magic",
     "cost": 4,
     "Color": [
@@ -890,7 +893,7 @@
       "Purple"
     ],
     "Family": [
-      "血醒"
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -901,14 +904,14 @@
     "id": "26RSD02-014",
     "face": {
       "front": {
-        "name": "ソウルバイト",
+        "name": "Soul Bite",
         "type": "Magic",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-014.webp",
         "isHorizontal": false
       }
     },
-    "name": "ソウルバイト",
+    "name": "Soul Bite",
     "type": "Magic",
     "cost": 6,
     "Color": [
@@ -920,7 +923,7 @@
       "Purple"
     ],
     "Family": [
-      "血醒"
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -931,14 +934,14 @@
     "id": "26RSD02-X01",
     "face": {
       "front": {
-        "name": "ネフィラー婦長",
+        "name": "The HeadNurse Nephila",
         "type": "Spirit",
         "cost": 7,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-X01.webp",
         "isHorizontal": false
       }
     },
-    "name": "ネフィラー婦長",
+    "name": "The HeadNurse Nephila",
     "type": "Spirit",
     "cost": 7,
     "Color": [
@@ -950,7 +953,7 @@
       "Purple"
     ],
     "Family": [
-      "血醒"
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -961,14 +964,14 @@
     "id": "26RSD02-X02",
     "face": {
       "front": {
-        "name": "ペリゴルージュ帝",
+        "name": "Emperor Perigorouge",
         "type": "Spirit",
         "cost": 9,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-X02.webp",
         "isHorizontal": false
       }
     },
-    "name": "ペリゴルージュ帝",
+    "name": "Emperor Perigorouge",
     "type": "Spirit",
     "cost": 9,
     "Color": [
@@ -981,7 +984,7 @@
       "Purple"
     ],
     "Family": [
-      "血醒"
+      "Bloodrouse"
     ],
     "Set": [
       "26RSD02"
@@ -992,14 +995,14 @@
     "id": "26RSD03-001",
     "face": {
       "front": {
-        "name": "フラッティ",
+        "name": "Flutty",
         "type": "Spirit",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-001.webp",
         "isHorizontal": false
       }
     },
-    "name": "フラッティ",
+    "name": "Flutty",
     "type": "Spirit",
     "cost": 2,
     "Color": [
@@ -1009,7 +1012,7 @@
       "Green"
     ],
     "Family": [
-      "甲魚"
+      "Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1020,14 +1023,14 @@
     "id": "26RSD03-002",
     "face": {
       "front": {
-        "name": "パッファー",
+        "name": "Puffer",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-002.webp",
         "isHorizontal": false
       }
     },
-    "name": "パッファー",
+    "name": "Puffer",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -1037,7 +1040,7 @@
       "Green"
     ],
     "Family": [
-      "甲魚"
+      "Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1048,14 +1051,14 @@
     "id": "26RSD03-003",
     "face": {
       "front": {
-        "name": "ラスヘッド",
+        "name": "Rassehead",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-003.webp",
         "isHorizontal": false
       }
     },
-    "name": "ラスヘッド",
+    "name": "Rassehead",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -1065,7 +1068,7 @@
       "Green"
     ],
     "Family": [
-      "海緑・甲魚"
+      "Oceanic Green","Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1076,14 +1079,14 @@
     "id": "26RSD03-004",
     "face": {
       "front": {
-        "name": "ストラレイ",
+        "name": "Straray",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-004.webp",
         "isHorizontal": false
       }
     },
-    "name": "ストラレイ",
+    "name": "Straray",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -1094,7 +1097,7 @@
       "Green"
     ],
     "Family": [
-      "海緑・甲魚"
+      "Oceanic Green","Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1105,14 +1108,14 @@
     "id": "26RSD03-005",
     "face": {
       "front": {
-        "name": "モラモーラ",
+        "name": "Mola Moula",
         "type": "Spirit",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-005.webp",
         "isHorizontal": false
       }
     },
-    "name": "モラモーラ",
+    "name": "Mola Moula",
     "type": "Spirit",
     "cost": 4,
     "Color": [
@@ -1124,7 +1127,7 @@
       "Green"
     ],
     "Family": [
-      "海緑・甲魚"
+      "Oceanic Green","Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1135,14 +1138,14 @@
     "id": "26RSD03-006",
     "face": {
       "front": {
-        "name": "海幻コエラ＝カンサス",
+        "name": "The OceanPhantom Coela-Canth",
         "type": "Spirit",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-006.webp",
         "isHorizontal": false
       }
     },
-    "name": "海幻コエラ＝カンサス",
+    "name": "The OceanPhantom Coela-Canth",
     "type": "Spirit",
     "cost": 5,
     "Color": [
@@ -1153,7 +1156,7 @@
       "Green"
     ],
     "Family": [
-      "甲魚"
+      "Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1164,14 +1167,14 @@
     "id": "26RSD03-007",
     "face": {
       "front": {
-        "name": "ガリザロト",
+        "name": "Garizarot",
         "type": "Spirit",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-007.webp",
         "isHorizontal": false
       }
     },
-    "name": "ガリザロト",
+    "name": "Garizarot",
     "type": "Spirit",
     "cost": 5,
     "Color": [
@@ -1183,7 +1186,7 @@
       "Green"
     ],
     "Family": [
-      "甲魚"
+      "Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1194,14 +1197,14 @@
     "id": "26RSD03-008",
     "face": {
       "front": {
-        "name": "重顎ドロゴリアス",
+        "name": "The HeavyJaws Dorogoliath",
         "type": "Spirit",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-008.webp",
         "isHorizontal": false
       }
     },
-    "name": "重顎ドロゴリアス",
+    "name": "The HeavyJaws Dorogoliath",
     "type": "Spirit",
     "cost": 5,
     "Color": [
@@ -1213,7 +1216,7 @@
       "Green"
     ],
     "Family": [
-      "甲魚"
+      "Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1224,14 +1227,14 @@
     "id": "26RSD03-009",
     "face": {
       "front": {
-        "name": "透笠オリンディアス",
+        "name": "The TransparentHood Olindias",
         "type": "Spirit",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-009.webp",
         "isHorizontal": false
       }
     },
-    "name": "透笠オリンディアス",
+    "name": "The TransparentHood Olindias",
     "type": "Spirit",
     "cost": 6,
     "Color": [
@@ -1243,7 +1246,7 @@
       "Green"
     ],
     "Family": [
-      "甲魚"
+      "Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1254,14 +1257,14 @@
     "id": "26RSD03-010",
     "face": {
       "front": {
-        "name": "最奥：緑淵深",
+        "name": "Utmost Depth: The Emerald Abyss",
         "type": "Nexus",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-010.webp",
         "isHorizontal": false
       }
     },
-    "name": "最奥：緑淵深",
+    "name": "Utmost Depth: The Emerald Abyss",
     "type": "Nexus",
     "cost": 3,
     "Color": [
@@ -1272,7 +1275,7 @@
       "Green"
     ],
     "Family": [
-      "甲魚"
+      "Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1283,14 +1286,14 @@
     "id": "26RSD03-011",
     "face": {
       "front": {
-        "name": "水泡群域",
+        "name": "The Bubble Cluster Realm",
         "type": "Nexus",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-011.webp",
         "isHorizontal": false
       }
     },
-    "name": "水泡群域",
+    "name": "The Bubble Cluster Realm",
     "type": "Nexus",
     "cost": 4,
     "Color": [
@@ -1301,7 +1304,7 @@
       "Green"
     ],
     "Family": [
-      "甲魚"
+      "Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1312,14 +1315,14 @@
     "id": "26RSD03-012",
     "face": {
       "front": {
-        "name": "ハンドモルト",
+        "name": "Hand Molt",
         "type": "Magic",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-012.webp",
         "isHorizontal": false
       }
     },
-    "name": "ハンドモルト",
+    "name": "Hand Molt",
     "type": "Magic",
     "cost": 4,
     "Color": [
@@ -1330,7 +1333,7 @@
       "Green"
     ],
     "Family": [
-      "甲魚"
+      "Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1341,14 +1344,14 @@
     "id": "26RSD03-013",
     "face": {
       "front": {
-        "name": "ボルテクスシェイブ",
+        "name": "Vortex Shave",
         "type": "Magic",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-013.webp",
         "isHorizontal": false
       }
     },
-    "name": "ボルテクスシェイブ",
+    "name": "Vortex Shave",
     "type": "Magic",
     "cost": 4,
     "Color": [
@@ -1360,7 +1363,7 @@
       "Green"
     ],
     "Family": [
-      "甲魚"
+      "Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1371,14 +1374,14 @@
     "id": "26RSD03-014",
     "face": {
       "front": {
-        "name": "テンタクルアタック",
+        "name": "Tentacle Attack",
         "type": "Magic",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-014.webp",
         "isHorizontal": false
       }
     },
-    "name": "テンタクルアタック",
+    "name": "Tentacle Attack",
     "type": "Magic",
     "cost": 6,
     "Color": [
@@ -1390,7 +1393,7 @@
       "Green"
     ],
     "Family": [
-      "甲魚"
+      "Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1401,14 +1404,14 @@
     "id": "26RSD03-X01",
     "face": {
       "front": {
-        "name": "甲手スクィード",
+        "name": "The ArmoredHands Squid",
         "type": "Spirit",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-X01.webp",
         "isHorizontal": false
       }
     },
-    "name": "甲手スクィード",
+    "name": "The ArmoredHands Squid",
     "type": "Spirit",
     "cost": 5,
     "Color": [
@@ -1420,7 +1423,7 @@
       "Green"
     ],
     "Family": [
-      "海緑・甲魚"
+      "Oceanic Green","Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1431,14 +1434,14 @@
     "id": "26RSD03-X02",
     "face": {
       "front": {
-        "name": "深巣ダンテクレオ",
+        "name": "The DeepNest Duntekleo",
         "type": "Spirit",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-X02.webp",
         "isHorizontal": false
       }
     },
-    "name": "深巣ダンテクレオ",
+    "name": "The DeepNest Duntekleo",
     "type": "Spirit",
     "cost": 6,
     "Color": [
@@ -1450,7 +1453,7 @@
       "Green"
     ],
     "Family": [
-      "甲魚"
+      "Armored Fish"
     ],
     "Set": [
       "26RSD03"
@@ -1461,14 +1464,14 @@
     "id": "26RSD04-001",
     "face": {
       "front": {
-        "name": "アトゥン",
+        "name": "Atun",
         "type": "Spirit",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-001.webp",
         "isHorizontal": false
       }
     },
-    "name": "アトゥン",
+    "name": "Atun",
     "type": "Spirit",
     "cost": 2,
     "Color": [
@@ -1478,7 +1481,7 @@
       "White"
     ],
     "Family": [
-      "鉱人"
+      "Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1489,14 +1492,14 @@
     "id": "26RSD04-002",
     "face": {
       "front": {
-        "name": "ノンリル",
+        "name": "Nonril",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-002.webp",
         "isHorizontal": false
       }
     },
-    "name": "ノンリル",
+    "name": "Nonril",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -1506,7 +1509,7 @@
       "White"
     ],
     "Family": [
-      "鉱人"
+      "Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1517,14 +1520,14 @@
     "id": "26RSD04-003",
     "face": {
       "front": {
-        "name": "アーシヌス",
+        "name": "Arsinus",
         "type": "Spirit",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-003.webp",
         "isHorizontal": false
       }
     },
-    "name": "アーシヌス",
+    "name": "Arsinus",
     "type": "Spirit",
     "cost": 4,
     "Color": [
@@ -1535,7 +1538,7 @@
       "White"
     ],
     "Family": [
-      "鉱人"
+      "Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1546,14 +1549,14 @@
     "id": "26RSD04-004",
     "face": {
       "front": {
-        "name": "重爪フォークロアー",
+        "name": "The HeavyClaw Forclawer",
         "type": "Spirit",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-004.webp",
         "isHorizontal": false
       }
     },
-    "name": "重爪フォークロアー",
+    "name": "The HeavyClaw Forclawer",
     "type": "Spirit",
     "cost": 4,
     "Color": [
@@ -1565,7 +1568,7 @@
       "White"
     ],
     "Family": [
-      "白妙・鉱人"
+      "Leucomyst","Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1576,14 +1579,14 @@
     "id": "26RSD04-005",
     "face": {
       "front": {
-        "name": "チムニルガ",
+        "name": "Chimeniruga",
         "type": "Spirit",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-005.webp",
         "isHorizontal": false
       }
     },
-    "name": "チムニルガ",
+    "name": "Chimeniruga",
     "type": "Spirit",
     "cost": 4,
     "Color": [
@@ -1595,7 +1598,7 @@
       "White"
     ],
     "Family": [
-      "白妙・鉱人"
+      "Leucomyst","Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1606,14 +1609,14 @@
     "id": "26RSD04-006",
     "face": {
       "front": {
-        "name": "ダビティ",
+        "name": "Dabity",
         "type": "Spirit",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-006.webp",
         "isHorizontal": false
       }
     },
-    "name": "ダビティ",
+    "name": "Dabity",
     "type": "Spirit",
     "cost": 5,
     "Color": [
@@ -1624,7 +1627,7 @@
       "White"
     ],
     "Family": [
-      "鉱人"
+      "Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1635,14 +1638,14 @@
     "id": "26RSD04-007",
     "face": {
       "front": {
-        "name": "ジャンクス",
+        "name": "Junks",
         "type": "Spirit",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-007.webp",
         "isHorizontal": false
       }
     },
-    "name": "ジャンクス",
+    "name": "Junks",
     "type": "Spirit",
     "cost": 6,
     "Color": [
@@ -1654,7 +1657,7 @@
       "White"
     ],
     "Family": [
-      "白妙・鉱人"
+      "Leucomyst","Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1665,14 +1668,14 @@
     "id": "26RSD04-008",
     "face": {
       "front": {
-        "name": "豪腕アナトマ",
+        "name": "The MightyArm Anatoma",
         "type": "Spirit",
         "cost": 7,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-008.webp",
         "isHorizontal": false
       }
     },
-    "name": "豪腕アナトマ",
+    "name": "The MightyArm Anatoma",
     "type": "Spirit",
     "cost": 7,
     "Color": [
@@ -1685,7 +1688,7 @@
       "White"
     ],
     "Family": [
-      "白妙・鉱人"
+      "Leucomyst","Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1696,14 +1699,14 @@
     "id": "26RSD04-009",
     "face": {
       "front": {
-        "name": "石切平原",
+        "name": "The Quarry Plain",
         "type": "Nexus",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-009.webp",
         "isHorizontal": false
       }
     },
-    "name": "石切平原",
+    "name": "The Quarry Plain",
     "type": "Nexus",
     "cost": 3,
     "Color": [
@@ -1714,7 +1717,7 @@
       "White"
     ],
     "Family": [
-      "鉱人"
+      "Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1725,14 +1728,14 @@
     "id": "26RSD04-010",
     "face": {
       "front": {
-        "name": "最奥：白天平",
+        "name": "Utmost Depth: The White Skyline",
         "type": "Nexus",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-010.webp",
         "isHorizontal": false
       }
     },
-    "name": "最奥：白天平",
+    "name": "Utmost Depth: The White Skyline",
     "type": "Nexus",
     "cost": 3,
     "Color": [
@@ -1743,7 +1746,7 @@
       "White"
     ],
     "Family": [
-      "鉱人"
+      "Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1754,14 +1757,14 @@
     "id": "26RSD04-011",
     "face": {
       "front": {
-        "name": "立石円陣",
+        "name": "The Menhir Circle",
         "type": "Nexus",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-011.webp",
         "isHorizontal": false
       }
     },
-    "name": "立石円陣",
+    "name": "The Menhir Circle",
     "type": "Nexus",
     "cost": 4,
     "Color": [
@@ -1773,7 +1776,7 @@
       "White"
     ],
     "Family": [
-      "鉱人"
+      "Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1784,14 +1787,14 @@
     "id": "26RSD04-012",
     "face": {
       "front": {
-        "name": "ロックドリリング",
+        "name": "Rock Drilling",
         "type": "Magic",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-012.webp",
         "isHorizontal": false
       }
     },
-    "name": "ロックドリリング",
+    "name": "Rock Drilling",
     "type": "Magic",
     "cost": 2,
     "Color": [
@@ -1801,7 +1804,7 @@
       "White"
     ],
     "Family": [
-      "鉱人"
+      "Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1812,14 +1815,14 @@
     "id": "26RSD04-013",
     "face": {
       "front": {
-        "name": "ドリームローター",
+        "name": "Dream Rotor",
         "type": "Magic",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-013.webp",
         "isHorizontal": false
       }
     },
-    "name": "ドリームローター",
+    "name": "Dream Rotor",
     "type": "Magic",
     "cost": 4,
     "Color": [
@@ -1831,7 +1834,7 @@
       "White"
     ],
     "Family": [
-      "鉱人"
+      "Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1842,14 +1845,14 @@
     "id": "26RSD04-014",
     "face": {
       "front": {
-        "name": "ディフェンシブゲート",
+        "name": "Defensive Gate",
         "type": "Magic",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-014.webp",
         "isHorizontal": false
       }
     },
-    "name": "ディフェンシブゲート",
+    "name": "Defensive Gate",
     "type": "Magic",
     "cost": 5,
     "Color": [
@@ -1861,7 +1864,7 @@
       "White"
     ],
     "Family": [
-      "鉱人"
+      "Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1872,14 +1875,14 @@
     "id": "26RSD04-X01",
     "face": {
       "front": {
-        "name": "陸舟マテンダー",
+        "name": "The ContinentalShip Matanda",
         "type": "Spirit",
         "cost": 8,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-X01.webp",
         "isHorizontal": false
       }
     },
-    "name": "陸舟マテンダー",
+    "name": "The ContinentalShip Matanda",
     "type": "Spirit",
     "cost": 8,
     "Color": [
@@ -1892,7 +1895,7 @@
       "White"
     ],
     "Family": [
-      "鉱人"
+      "Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1903,14 +1906,14 @@
     "id": "26RSD04-X02",
     "face": {
       "front": {
-        "name": "真門官サヴァトマ",
+        "name": "The TrueGateMinister Savatoma",
         "type": "Spirit",
         "cost": 9,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-X02.webp",
         "isHorizontal": false
       }
     },
-    "name": "真門官サヴァトマ",
+    "name": "The TrueGateMinister Savatoma",
     "type": "Spirit",
     "cost": 9,
     "Color": [
@@ -1924,7 +1927,7 @@
       "White"
     ],
     "Family": [
-      "鉱人"
+      "Mineroid"
     ],
     "Set": [
       "26RSD04"
@@ -1935,14 +1938,14 @@
     "id": "26RSD05-001",
     "face": {
       "front": {
-        "name": "クイール",
+        "name": "Quill",
         "type": "Spirit",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-001.webp",
         "isHorizontal": false
       }
     },
-    "name": "クイール",
+    "name": "Quill",
     "type": "Spirit",
     "cost": 2,
     "Color": [
@@ -1952,7 +1955,7 @@
       "Yellow"
     ],
     "Family": [
-      "黄玉・雷竜"
+      "Topaz","Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -1963,14 +1966,14 @@
     "id": "26RSD05-002",
     "face": {
       "front": {
-        "name": "アマール",
+        "name": "Amaru",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-002.webp",
         "isHorizontal": false
       }
     },
-    "name": "アマール",
+    "name": "Amaru",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -1980,7 +1983,7 @@
       "Yellow"
     ],
     "Family": [
-      "雷竜"
+      "Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -1991,14 +1994,14 @@
     "id": "26RSD05-003",
     "face": {
       "front": {
-        "name": "ラニラヤ",
+        "name": "Raniraya",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-003.webp",
         "isHorizontal": false
       }
     },
-    "name": "ラニラヤ",
+    "name": "Raniraya",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -2009,7 +2012,7 @@
       "Yellow"
     ],
     "Family": [
-      "黄玉・雷竜"
+      "Topaz","Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2020,14 +2023,14 @@
     "id": "26RSD05-004",
     "face": {
       "front": {
-        "name": "ディヴァエス",
+        "name": "Divaes",
         "type": "Spirit",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-004.webp",
         "isHorizontal": false
       }
     },
-    "name": "ディヴァエス",
+    "name": "Divaes",
     "type": "Spirit",
     "cost": 4,
     "Color": [
@@ -2038,7 +2041,7 @@
       "Yellow"
     ],
     "Family": [
-      "雷竜"
+      "Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2049,14 +2052,14 @@
     "id": "26RSD05-005",
     "face": {
       "front": {
-        "name": "ルクアンス",
+        "name": "Lucance",
         "type": "Spirit",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-005.webp",
         "isHorizontal": false
       }
     },
-    "name": "ルクアンス",
+    "name": "Lucance",
     "type": "Spirit",
     "cost": 4,
     "Color": [
@@ -2068,7 +2071,7 @@
       "Yellow"
     ],
     "Family": [
-      "黄玉・雷竜"
+      "Topaz","Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2079,14 +2082,14 @@
     "id": "26RSD05-006",
     "face": {
       "front": {
-        "name": "セマローグ",
+        "name": "Semarogue",
         "type": "Spirit",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-006.webp",
         "isHorizontal": false
       }
     },
-    "name": "セマローグ",
+    "name": "Semarogue",
     "type": "Spirit",
     "cost": 5,
     "Color": [
@@ -2098,7 +2101,7 @@
       "Yellow"
     ],
     "Family": [
-      "黄玉・雷竜"
+      "Topaz","Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2109,14 +2112,14 @@
     "id": "26RSD05-007",
     "face": {
       "front": {
-        "name": "雷探ペルボーグ",
+        "name": "The SearchingThunder Pelborg",
         "type": "Spirit",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-007.webp",
         "isHorizontal": false
       }
     },
-    "name": "雷探ペルボーグ",
+    "name": "The SearchingThunder Pelborg",
     "type": "Spirit",
     "cost": 5,
     "Color": [
@@ -2128,7 +2131,7 @@
       "Yellow"
     ],
     "Family": [
-      "雷竜"
+      "Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2139,14 +2142,14 @@
     "id": "26RSD05-008",
     "face": {
       "front": {
-        "name": "雷天拳ウィーギル",
+        "name": "The CelestialThunderFist Wigil",
         "type": "Spirit",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-008.webp",
         "isHorizontal": false
       }
     },
-    "name": "雷天拳ウィーギル",
+    "name": "The CelestialThunderFist Wigil",
     "type": "Spirit",
     "cost": 6,
     "Color": [
@@ -2158,7 +2161,7 @@
       "Yellow"
     ],
     "Family": [
-      "雷竜"
+      "Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2169,14 +2172,14 @@
     "id": "26RSD05-009",
     "face": {
       "front": {
-        "name": "雷坑道",
+        "name": "The Thunder Driftways",
         "type": "Nexus",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-009.webp",
         "isHorizontal": false
       }
     },
-    "name": "雷坑道",
+    "name": "The Thunder Driftways",
     "type": "Nexus",
     "cost": 3,
     "Color": [
@@ -2187,7 +2190,7 @@
       "Yellow"
     ],
     "Family": [
-      "雷竜"
+      "Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2198,14 +2201,14 @@
     "id": "26RSD05-010",
     "face": {
       "front": {
-        "name": "最奥：大雷山嶺",
+        "name": "Utmost Depth: The Peaks of Great Thunder Mountain",
         "type": "Nexus",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-010.webp",
         "isHorizontal": false
       }
     },
-    "name": "最奥：大雷山嶺",
+    "name": "Utmost Depth: The Peaks of Great Thunder Mountain",
     "type": "Nexus",
     "cost": 4,
     "Color": [
@@ -2216,7 +2219,7 @@
       "Yellow"
     ],
     "Family": [
-      "雷竜"
+      "Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2227,14 +2230,14 @@
     "id": "26RSD05-011",
     "face": {
       "front": {
-        "name": "ファイアピラー",
+        "name": "Fire Pillar",
         "type": "Magic",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-011.webp",
         "isHorizontal": false
       }
     },
-    "name": "ファイアピラー",
+    "name": "Fire Pillar",
     "type": "Magic",
     "cost": 3,
     "Color": [
@@ -2245,7 +2248,7 @@
       "Yellow"
     ],
     "Family": [
-      "雷竜"
+      "Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2256,14 +2259,14 @@
     "id": "26RSD05-012",
     "face": {
       "front": {
-        "name": "リバースサンダー",
+        "name": "Rebirth Thunder",
         "type": "Magic",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-012.webp",
         "isHorizontal": false
       }
     },
-    "name": "リバースサンダー",
+    "name": "Rebirth Thunder",
     "type": "Magic",
     "cost": 3,
     "Color": [
@@ -2274,7 +2277,7 @@
       "Yellow"
     ],
     "Family": [
-      "雷竜"
+      "Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2285,14 +2288,14 @@
     "id": "26RSD05-013",
     "face": {
       "front": {
-        "name": "ネストリング",
+        "name": "Nest Ring",
         "type": "Magic",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-013.webp",
         "isHorizontal": false
       }
     },
-    "name": "ネストリング",
+    "name": "Nest Ring",
     "type": "Magic",
     "cost": 4,
     "Color": [
@@ -2303,7 +2306,7 @@
       "Yellow"
     ],
     "Family": [
-      "雷竜"
+      "Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2314,14 +2317,14 @@
     "id": "26RSD05-014",
     "face": {
       "front": {
-        "name": "トリプルサンダー",
+        "name": "Triple Thunder",
         "type": "Magic",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-014.webp",
         "isHorizontal": false
       }
     },
-    "name": "トリプルサンダー",
+    "name": "Triple Thunder",
     "type": "Magic",
     "cost": 6,
     "Color": [
@@ -2333,7 +2336,7 @@
       "Yellow"
     ],
     "Family": [
-      "雷竜"
+      "Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2344,14 +2347,14 @@
     "id": "26RSD05-X01",
     "face": {
       "front": {
-        "name": "雷噴ペールクアール",
+        "name": "The EruptingThunder Palecoeurl",
         "type": "Spirit",
         "cost": 7,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-X01.webp",
         "isHorizontal": false
       }
     },
-    "name": "雷噴ペールクアール",
+    "name": "The EruptingThunder Palecoeurl",
     "type": "Spirit",
     "cost": 7,
     "Color": [
@@ -2363,7 +2366,7 @@
       "Yellow"
     ],
     "Family": [
-      "雷竜"
+      "Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2374,14 +2377,14 @@
     "id": "26RSD05-X02",
     "face": {
       "front": {
-        "name": "雷術ルクーナス",
+        "name": "The SpellThunder Lucnas",
         "type": "Spirit",
         "cost": 7,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-X02.webp",
         "isHorizontal": false
       }
     },
-    "name": "雷術ルクーナス",
+    "name": "The SpellThunder Lucnas",
     "type": "Spirit",
     "cost": 7,
     "Color": [
@@ -2394,7 +2397,7 @@
       "Yellow"
     ],
     "Family": [
-      "雷竜"
+      "Thunder Dragon"
     ],
     "Set": [
       "26RSD05"
@@ -2405,14 +2408,14 @@
     "id": "26RSD06-001",
     "face": {
       "front": {
-        "name": "ナウサ",
+        "name": "Nausa",
         "type": "Spirit",
         "cost": 2,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-001.webp",
         "isHorizontal": false
       }
     },
-    "name": "ナウサ",
+    "name": "Nausa",
     "type": "Spirit",
     "cost": 2,
     "Color": [
@@ -2422,7 +2425,7 @@
       "Blue"
     ],
     "Family": [
-      "凶獣"
+      "Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2433,14 +2436,14 @@
     "id": "26RSD06-002",
     "face": {
       "front": {
-        "name": "ディアトラ",
+        "name": "Deertora",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-002.webp",
         "isHorizontal": false
       }
     },
-    "name": "ディアトラ",
+    "name": "Deertora",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -2450,7 +2453,7 @@
       "Blue"
     ],
     "Family": [
-      "凶獣"
+      "Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2461,14 +2464,14 @@
     "id": "26RSD06-003",
     "face": {
       "front": {
-        "name": "メルラク",
+        "name": "Melrak",
         "type": "Spirit",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-003.webp",
         "isHorizontal": false
       }
     },
-    "name": "メルラク",
+    "name": "Melrak",
     "type": "Spirit",
     "cost": 3,
     "Color": [
@@ -2478,7 +2481,7 @@
       "Blue"
     ],
     "Family": [
-      "凶獣"
+      "Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2489,14 +2492,14 @@
     "id": "26RSD06-004",
     "face": {
       "front": {
-        "name": "ライセロス",
+        "name": "Rhiceros",
         "type": "Spirit",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-004.webp",
         "isHorizontal": false
       }
     },
-    "name": "ライセロス",
+    "name": "Rhiceros",
     "type": "Spirit",
     "cost": 4,
     "Color": [
@@ -2507,7 +2510,7 @@
       "Blue"
     ],
     "Family": [
-      "青樹・凶獣"
+      "Cyantree","Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2518,14 +2521,14 @@
     "id": "26RSD06-005",
     "face": {
       "front": {
-        "name": "スロウス",
+        "name": "Slouth",
         "type": "Spirit",
         "cost": 4,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-005.webp",
         "isHorizontal": false
       }
     },
-    "name": "スロウス",
+    "name": "Slouth",
     "type": "Spirit",
     "cost": 4,
     "Color": [
@@ -2537,7 +2540,7 @@
       "Blue"
     ],
     "Family": [
-      "青樹・凶獣"
+      "Cyantree","Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2548,14 +2551,14 @@
     "id": "26RSD06-006",
     "face": {
       "front": {
-        "name": "スヴァリス",
+        "name": "Svarris",
         "type": "Spirit",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-006.webp",
         "isHorizontal": false
       }
     },
-    "name": "スヴァリス",
+    "name": "Svarris",
     "type": "Spirit",
     "cost": 5,
     "Color": [
@@ -2567,7 +2570,7 @@
       "Blue"
     ],
     "Family": [
-      "凶獣"
+      "Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2578,14 +2581,14 @@
     "id": "26RSD06-007",
     "face": {
       "front": {
-        "name": "アルマリト",
+        "name": "Armalido",
         "type": "Spirit",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-007.webp",
         "isHorizontal": false
       }
     },
-    "name": "アルマリト",
+    "name": "Armalido",
     "type": "Spirit",
     "cost": 6,
     "Color": [
@@ -2597,7 +2600,7 @@
       "Blue"
     ],
     "Family": [
-      "青樹・凶獣"
+      "Cyantree","Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2608,14 +2611,14 @@
     "id": "26RSD06-008",
     "face": {
       "front": {
-        "name": "樹影フェリオ",
+        "name": "The TreeShadow Felio",
         "type": "Spirit",
         "cost": 7,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-008.webp",
         "isHorizontal": false
       }
     },
-    "name": "樹影フェリオ",
+    "name": "The TreeShadow Felio",
     "type": "Spirit",
     "cost": 7,
     "Color": [
@@ -2628,7 +2631,7 @@
       "Blue"
     ],
     "Family": [
-      "青樹・凶獣"
+      "Cyantree","Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2639,14 +2642,14 @@
     "id": "26RSD06-009",
     "face": {
       "front": {
-        "name": "雲霧森林",
+        "name": "The Misty Forest",
         "type": "Nexus",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-009.webp",
         "isHorizontal": false
       }
     },
-    "name": "雲霧森林",
+    "name": "The Misty Forest",
     "type": "Nexus",
     "cost": 3,
     "Color": [
@@ -2657,7 +2660,7 @@
       "Blue"
     ],
     "Family": [
-      "凶獣"
+      "Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2668,14 +2671,14 @@
     "id": "26RSD06-010",
     "face": {
       "front": {
-        "name": "最奥：極大樹",
+        "name": "Utmost Depth: The Extreme Giant Tree",
         "type": "Nexus",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-010.webp",
         "isHorizontal": false
       }
     },
-    "name": "最奥：極大樹",
+    "name": "Utmost Depth: The Extreme Giant Tree",
     "type": "Nexus",
     "cost": 3,
     "Color": [
@@ -2686,7 +2689,7 @@
       "Blue"
     ],
     "Family": [
-      "凶獣"
+      "Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2697,14 +2700,14 @@
     "id": "26RSD06-011",
     "face": {
       "front": {
-        "name": "砲森弾林",
+        "name": "The Barrage Forest",
         "type": "Nexus",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-011.webp",
         "isHorizontal": false
       }
     },
-    "name": "砲森弾林",
+    "name": "The Barrage Forest",
     "type": "Nexus",
     "cost": 5,
     "Color": [
@@ -2715,7 +2718,7 @@
       "Blue"
     ],
     "Family": [
-      "凶獣"
+      "Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2726,14 +2729,14 @@
     "id": "26RSD06-012",
     "face": {
       "front": {
-        "name": "フィーディングドロー",
+        "name": "Feeding Draw",
         "type": "Magic",
         "cost": 3,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-012.webp",
         "isHorizontal": false
       }
     },
-    "name": "フィーディングドロー",
+    "name": "Feeding Draw",
     "type": "Magic",
     "cost": 3,
     "Color": [
@@ -2744,7 +2747,7 @@
       "Blue"
     ],
     "Family": [
-      "凶獣"
+      "Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2755,14 +2758,14 @@
     "id": "26RSD06-013",
     "face": {
       "front": {
-        "name": "ステムランス",
+        "name": "Stem Lance",
         "type": "Magic",
         "cost": 5,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-013.webp",
         "isHorizontal": false
       }
     },
-    "name": "ステムランス",
+    "name": "Stem Lance",
     "type": "Magic",
     "cost": 5,
     "Color": [
@@ -2774,7 +2777,7 @@
       "Blue"
     ],
     "Family": [
-      "凶獣"
+      "Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2785,14 +2788,14 @@
     "id": "26RSD06-014",
     "face": {
       "front": {
-        "name": "フルストマック",
+        "name": "Full Stomach",
         "type": "Magic",
         "cost": 6,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-014.webp",
         "isHorizontal": false
       }
     },
-    "name": "フルストマック",
+    "name": "Full Stomach",
     "type": "Magic",
     "cost": 6,
     "Color": [
@@ -2805,7 +2808,7 @@
       "Blue"
     ],
     "Family": [
-      "凶獣"
+      "Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2816,14 +2819,14 @@
     "id": "26RSD06-X01",
     "face": {
       "front": {
-        "name": "盾角ギガンテリオン",
+        "name": "The ShieldHorn Gigantherion",
         "type": "Spirit",
         "cost": 8,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-X01.webp",
         "isHorizontal": false
       }
     },
-    "name": "盾角ギガンテリオン",
+    "name": "The ShieldHorn Gigantherion",
     "type": "Spirit",
     "cost": 8,
     "Color": [
@@ -2836,7 +2839,7 @@
       "Blue"
     ],
     "Family": [
-      "凶獣"
+      "Ferobeast"
     ],
     "Set": [
       "26RSD06"
@@ -2847,14 +2850,14 @@
     "id": "26RSD06-X02",
     "face": {
       "front": {
-        "name": "極樹エレファス",
+        "name": "The ExtremeTree Elephas",
         "type": "Spirit",
         "cost": 10,
         "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-X02.webp",
         "isHorizontal": false
       }
     },
-    "name": "極樹エレファス",
+    "name": "The ExtremeTree Elephas",
     "type": "Spirit",
     "cost": 10,
     "Color": [
@@ -2867,7 +2870,7 @@
       "Blue"
     ],
     "Family": [
-      "凶獣"
+      "Ferobeast"
     ],
     "Set": [
       "26RSD06"
