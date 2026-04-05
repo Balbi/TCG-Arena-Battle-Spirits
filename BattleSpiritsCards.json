@@ -2360,6 +2360,36 @@
     ],
     "isToken": false
   },
+  "26RSD05-014P": {
+    "id": "26RSD05-014P",
+    "face": {
+      "front": {
+        "name": "Triple Thunder",
+        "type": "Magic",
+        "cost": 6,
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-014p.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Triple Thunder",
+    "type": "Magic",
+    "cost": 6,
+    "Color": [
+      "Yellow"
+    ],
+    "Reduction": [
+      "Yellow",
+      "Yellow",
+      "Yellow"
+    ],
+    "Family": [
+      "Thunder Dragon"
+    ],
+    "Set": [
+      "26RSD05"
+    ],
+    "isToken": false
+  },
   "26RSD05-X01": {
     "id": "26RSD05-X01",
     "face": {
