@@ -53,7 +53,7 @@
         "name": "Mushakko",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-001-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-001.png",
         "isHorizontal": false
       }
     },
@@ -81,7 +81,7 @@
         "name": "Gen-Bor",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-002-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-002.png",
         "isHorizontal": false
       }
     },
@@ -111,7 +111,7 @@
         "name": "Rowamiku",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-003-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-003.png",
         "isHorizontal": false
       }
     },
@@ -141,7 +141,7 @@
         "name": "Haarier",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-004-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-004.png",
         "isHorizontal": false
       }
     },
@@ -170,7 +170,7 @@
         "name": "Goon-Gata",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-005-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-005.png",
         "isHorizontal": false
       }
     },
@@ -201,7 +201,7 @@
         "name": "Cupell",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-006-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-006.png",
         "isHorizontal": false
       }
     },
@@ -230,7 +230,7 @@
         "name": "Griffar",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-007-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-007.png",
         "isHorizontal": false
       }
     },
@@ -260,7 +260,7 @@
         "name": "Sertarius",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-008-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-008.png",
         "isHorizontal": false
       }
     },
@@ -290,7 +290,7 @@
         "name": "The FlyingAce Reufalx",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-009-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-009.png",
         "isHorizontal": false
       }
     },
@@ -321,7 +321,7 @@
         "name": "Utmost Depth: The Windfang Crag",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-010-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-010.png",
         "isHorizontal": false
       }
     },
@@ -350,7 +350,7 @@
         "name": "The Floating Stone Realm",
         "type": "Nexus",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-011-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-011.png",
         "isHorizontal": false
       }
     },
@@ -379,7 +379,7 @@
         "name": "Break Claw",
         "type": "Magic",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-012-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-012.png",
         "isHorizontal": false
       }
     },
@@ -408,7 +408,7 @@
         "name": "Offering Draw",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-013-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-013.png",
         "isHorizontal": false
       }
     },
@@ -437,7 +437,7 @@
         "name": "Flame Hurricane",
         "type": "Magic",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-014-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-014.png",
         "isHorizontal": false
       }
     },
@@ -467,7 +467,7 @@
         "name": "The FlyingScarlet Rensis",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-X01-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-X01.png",
         "isHorizontal": false
       }
     },
@@ -498,7 +498,7 @@
         "name": "The FlyingIron Akurai",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-X02-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD01/26RSD01-X02.png",
         "isHorizontal": false
       }
     },
@@ -529,7 +529,7 @@
         "name": "Sclouse",
         "type": "Spirit",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-001-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-001.png",
         "isHorizontal": false
       }
     },
@@ -558,7 +558,7 @@
         "name": "Firalba",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-002-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-002.png",
         "isHorizontal": false
       }
     },
@@ -586,7 +586,7 @@
         "name": "Medici-Cattery",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-003-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-003.png",
         "isHorizontal": false
       }
     },
@@ -616,7 +616,7 @@
         "name": "Garsis",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-004-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-004.png",
         "isHorizontal": false
       }
     },
@@ -645,7 +645,7 @@
         "name": "Boogilugar",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-005-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-005.png",
         "isHorizontal": false
       }
     },
@@ -676,7 +676,7 @@
         "name": "Ram Toker",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-006-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-006.png",
         "isHorizontal": false
       }
     },
@@ -706,7 +706,7 @@
         "name": "Lady Lamica",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-007-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-007.png",
         "isHorizontal": false
       }
     },
@@ -736,7 +736,7 @@
         "name": "Ogrul",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-008-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-008.png",
         "isHorizontal": false
       }
     },
@@ -766,7 +766,7 @@
         "name": "Utmost Depth: The Bloodrouse Mountain Range",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-009-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-009.png",
         "isHorizontal": false
       }
     },
@@ -795,7 +795,7 @@
         "name": "The Violet Witherlands",
         "type": "Nexus",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-010-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-010.png",
         "isHorizontal": false
       }
     },
@@ -824,7 +824,7 @@
         "name": "Dark Hang",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-011-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-011.png",
         "isHorizontal": false
       }
     },
@@ -853,7 +853,7 @@
         "name": "Blood Sip",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-012-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-012.png",
         "isHorizontal": false
       }
     },
@@ -882,7 +882,7 @@
         "name": "Rainy Poison",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-013-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-013.png",
         "isHorizontal": false
       }
     },
@@ -912,7 +912,7 @@
         "name": "Soul Bite",
         "type": "Magic",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-014-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-014.png",
         "isHorizontal": false
       }
     },
@@ -942,7 +942,7 @@
         "name": "The HeadNurse Nephila",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-X01-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-X01.png",
         "isHorizontal": false
       }
     },
@@ -972,7 +972,7 @@
         "name": "Emperor Perigorouge",
         "type": "Spirit",
         "cost": 9,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-X02-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD02/26RSD02-X02.png",
         "isHorizontal": false
       }
     },
@@ -1003,7 +1003,7 @@
         "name": "Flutty",
         "type": "Spirit",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-001-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-001.png",
         "isHorizontal": false
       }
     },
@@ -1031,7 +1031,7 @@
         "name": "Puffer",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-002-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-002.png",
         "isHorizontal": false
       }
     },
@@ -1059,7 +1059,7 @@
         "name": "Rassehead",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-003-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-003.png",
         "isHorizontal": false
       }
     },
@@ -1088,7 +1088,7 @@
         "name": "Straray",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-004-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-004.png",
         "isHorizontal": false
       }
     },
@@ -1118,7 +1118,7 @@
         "name": "Mola Moula",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-005-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-005.png",
         "isHorizontal": false
       }
     },
@@ -1149,7 +1149,7 @@
         "name": "The OceanPhantom Coela-Canth",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-006-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-006.png",
         "isHorizontal": false
       }
     },
@@ -1178,7 +1178,7 @@
         "name": "Garizarot",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-007-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-007.png",
         "isHorizontal": false
       }
     },
@@ -1208,7 +1208,7 @@
         "name": "The HeavyJaws Dorogoliath",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-008-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-008.png",
         "isHorizontal": false
       }
     },
@@ -1238,7 +1238,7 @@
         "name": "The TransparentHood Olindias",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-009-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-009.png",
         "isHorizontal": false
       }
     },
@@ -1268,7 +1268,7 @@
         "name": "Utmost Depth: The Emerald Abyss",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-010-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-010.png",
         "isHorizontal": false
       }
     },
@@ -1297,7 +1297,7 @@
         "name": "The Bubble Cluster Realm",
         "type": "Nexus",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-011-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-011.png",
         "isHorizontal": false
       }
     },
@@ -1326,7 +1326,7 @@
         "name": "Hand Molt",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-012-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-012.png",
         "isHorizontal": false
       }
     },
@@ -1355,7 +1355,7 @@
         "name": "Vortex Shave",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-013-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-013.png",
         "isHorizontal": false
       }
     },
@@ -1385,7 +1385,7 @@
         "name": "Tentacle Attack",
         "type": "Magic",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-014-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-014.png",
         "isHorizontal": false
       }
     },
@@ -1415,7 +1415,7 @@
         "name": "The ArmoredHands Squid",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-X01-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-X01.png",
         "isHorizontal": false
       }
     },
@@ -1446,7 +1446,7 @@
         "name": "The DeepNest Duntekleo",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-X02-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD03/26RSD03-X02.png",
         "isHorizontal": false
       }
     },
@@ -1476,7 +1476,7 @@
         "name": "Atun",
         "type": "Spirit",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-001-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-001.png",
         "isHorizontal": false
       }
     },
@@ -1504,7 +1504,7 @@
         "name": "Nonril",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-002-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-002.png",
         "isHorizontal": false
       }
     },
@@ -1532,7 +1532,7 @@
         "name": "Arsinus",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-003-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-003.png",
         "isHorizontal": false
       }
     },
@@ -1561,7 +1561,7 @@
         "name": "The HeavyClaw Forclawer",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-004-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-004.png",
         "isHorizontal": false
       }
     },
@@ -1592,7 +1592,7 @@
         "name": "Chimeniruga",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-005-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-005.png",
         "isHorizontal": false
       }
     },
@@ -1623,7 +1623,7 @@
         "name": "Dabity",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-006-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-006.png",
         "isHorizontal": false
       }
     },
@@ -1652,7 +1652,7 @@
         "name": "Junks",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-007-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-007.png",
         "isHorizontal": false
       }
     },
@@ -1683,7 +1683,7 @@
         "name": "The MightyArm Anatoma",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-008-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-008.png",
         "isHorizontal": false
       }
     },
@@ -1715,7 +1715,7 @@
         "name": "The Quarry Plain",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-009-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-009.png",
         "isHorizontal": false
       }
     },
@@ -1744,7 +1744,7 @@
         "name": "Utmost Depth: The White Skyline",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-010-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-010.png",
         "isHorizontal": false
       }
     },
@@ -1773,7 +1773,7 @@
         "name": "The Menhir Circle",
         "type": "Nexus",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-011-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-011.png",
         "isHorizontal": false
       }
     },
@@ -1803,7 +1803,7 @@
         "name": "Rock Drilling",
         "type": "Magic",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-012-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-012.png",
         "isHorizontal": false
       }
     },
@@ -1831,7 +1831,7 @@
         "name": "Dream Rotor",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-013-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-013.png",
         "isHorizontal": false
       }
     },
@@ -1861,7 +1861,7 @@
         "name": "Defensive Gate",
         "type": "Magic",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-014-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-014.png",
         "isHorizontal": false
       }
     },
@@ -1891,7 +1891,7 @@
         "name": "The ContinentalShip Matanda",
         "type": "Spirit",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-X01-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-X01.png",
         "isHorizontal": false
       }
     },
@@ -1922,7 +1922,7 @@
         "name": "The TrueGateMinister Savatoma",
         "type": "Spirit",
         "cost": 9,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-X02-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD04/26RSD04-X02.png",
         "isHorizontal": false
       }
     },
@@ -1954,7 +1954,7 @@
         "name": "Quill",
         "type": "Spirit",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-001-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-001.png",
         "isHorizontal": false
       }
     },
@@ -1983,7 +1983,7 @@
         "name": "Amaru",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-002-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-002.png",
         "isHorizontal": false
       }
     },
@@ -2011,7 +2011,7 @@
         "name": "Raniraya",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-003-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-003.png",
         "isHorizontal": false
       }
     },
@@ -2041,7 +2041,7 @@
         "name": "Divaes",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-004-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-004.png",
         "isHorizontal": false
       }
     },
@@ -2070,7 +2070,7 @@
         "name": "Lucance",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-005-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-005.png",
         "isHorizontal": false
       }
     },
@@ -2101,7 +2101,7 @@
         "name": "Semarogue",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-006-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-006.png",
         "isHorizontal": false
       }
     },
@@ -2132,7 +2132,7 @@
         "name": "The SearchingThunder Pelborg",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-007-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-007.png",
         "isHorizontal": false
       }
     },
@@ -2162,7 +2162,7 @@
         "name": "The CelestialThunderFist Wigil",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-008-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-008.png",
         "isHorizontal": false
       }
     },
@@ -2192,7 +2192,7 @@
         "name": "The Thunder Driftways",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-009-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-009.png",
         "isHorizontal": false
       }
     },
@@ -2221,7 +2221,7 @@
         "name": "Utmost Depth: The Peaks of Great Thunder Mountain",
         "type": "Nexus",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-010-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-010.png",
         "isHorizontal": false
       }
     },
@@ -2250,7 +2250,7 @@
         "name": "Fire Pillar",
         "type": "Magic",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-011-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-011.png",
         "isHorizontal": false
       }
     },
@@ -2279,7 +2279,7 @@
         "name": "Rebirth Thunder",
         "type": "Magic",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-012-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-012.png",
         "isHorizontal": false
       }
     },
@@ -2308,7 +2308,7 @@
         "name": "Nest Ring",
         "type": "Magic",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-013-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-013.png",
         "isHorizontal": false
       }
     },
@@ -2337,7 +2337,7 @@
         "name": "Triple Thunder",
         "type": "Magic",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-014-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-014.png",
         "isHorizontal": false
       }
     },
@@ -2367,7 +2367,7 @@
         "name": "The EruptingThunder Palecoeurl",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-X01-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-X01.png",
         "isHorizontal": false
       }
     },
@@ -2397,7 +2397,7 @@
         "name": "The SpellThunder Lucnas",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-X02-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD05/26RSD05-X02.png",
         "isHorizontal": false
       }
     },
@@ -2428,7 +2428,7 @@
         "name": "Nausa",
         "type": "Spirit",
         "cost": 2,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-001-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-001.png",
         "isHorizontal": false
       }
     },
@@ -2456,7 +2456,7 @@
         "name": "Deertora",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-002-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-002.png",
         "isHorizontal": false
       }
     },
@@ -2484,7 +2484,7 @@
         "name": "Melrak",
         "type": "Spirit",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-003-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-003.png",
         "isHorizontal": false
       }
     },
@@ -2512,7 +2512,7 @@
         "name": "Rhiceros",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-004-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-004.png",
         "isHorizontal": false
       }
     },
@@ -2542,7 +2542,7 @@
         "name": "Slouth",
         "type": "Spirit",
         "cost": 4,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-005-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-005.png",
         "isHorizontal": false
       }
     },
@@ -2573,7 +2573,7 @@
         "name": "Svarris",
         "type": "Spirit",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-006-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-006.png",
         "isHorizontal": false
       }
     },
@@ -2603,7 +2603,7 @@
         "name": "Armalido",
         "type": "Spirit",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-007-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-007.png",
         "isHorizontal": false
       }
     },
@@ -2634,7 +2634,7 @@
         "name": "The TreeShadow Felio",
         "type": "Spirit",
         "cost": 7,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-008-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-008.png",
         "isHorizontal": false
       }
     },
@@ -2666,7 +2666,7 @@
         "name": "The Misty Forest",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-009-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-009.png",
         "isHorizontal": false
       }
     },
@@ -2695,7 +2695,7 @@
         "name": "Utmost Depth: The Extreme Giant Tree",
         "type": "Nexus",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-010-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-010.png",
         "isHorizontal": false
       }
     },
@@ -2724,7 +2724,7 @@
         "name": "The Barrage Forest",
         "type": "Nexus",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-011-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-011.png",
         "isHorizontal": false
       }
     },
@@ -2753,7 +2753,7 @@
         "name": "Feeding Draw",
         "type": "Magic",
         "cost": 3,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-012-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-012.png",
         "isHorizontal": false
       }
     },
@@ -2782,7 +2782,7 @@
         "name": "Stem Lance",
         "type": "Magic",
         "cost": 5,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-013-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-013.png",
         "isHorizontal": false
       }
     },
@@ -2812,7 +2812,7 @@
         "name": "Full Stomach",
         "type": "Magic",
         "cost": 6,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-014-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-014.png",
         "isHorizontal": false
       }
     },
@@ -2843,7 +2843,7 @@
         "name": "The ShieldHorn Gigantherion",
         "type": "Spirit",
         "cost": 8,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-X01-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-X01.png",
         "isHorizontal": false
       }
     },
@@ -2874,7 +2874,7 @@
         "name": "The ExtremeTree Elephas",
         "type": "Spirit",
         "cost": 10,
-        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-X02-en.png",
+        "image": "https://balbi.github.io/TCG-Arena-Battle-Spirits/images/cards/26RSD06/26RSD06-X02.png",
         "isHorizontal": false
       }
     },
